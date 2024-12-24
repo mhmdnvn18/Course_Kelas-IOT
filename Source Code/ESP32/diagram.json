@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "author": "Adam Damara",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 25.8, "left": -342.8, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-rgb-led",
+      "id": "rgb1",
+      "top": 100,
+      "left": -75.7,
+      "attrs": { "common": "cathode" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 102, "left": -111.4, "attrs": { "color": "red" } },
+    { "type": "wokwi-servo", "id": "servo1", "top": -98, "left": -86.4, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -68.5, "left": -221, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -95.7, "left": -293.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:5V", "bb1:bp.25", "red", [ "h4.99", "v9.6" ] ],
+    [ "esp:GND.1", "bb1:bn.25", "black", [ "h-14.21", "v67.2", "h-28.8" ] ],
+    [ "bb1:28b.j", "bb1:bn.23", "black", [ "v0" ] ],
+    [ "bb1:27b.j", "esp:2", "red", [ "v76.8", "h192", "v-96" ] ],
+    [ "bb1:29b.j", "esp:4", "green", [ "v86.4", "h182.4", "v-115.2" ] ],
+    [ "bb1:30b.j", "esp:16", "blue", [ "v96", "h182.4", "v-144" ] ],
+    [ "bb1:24b.j", "bb1:bn.20", "black", [ "v0" ] ],
+    [ "esp:13", "bb1:25b.h", "green", [ "h0" ] ],
+    [ "servo1:V+", "bb1:bp.18", "red", [ "h0" ] ],
+    [ "servo1:GND", "bb1:bn.17", "black", [ "h0" ] ],
+    [ "servo1:PWM", "bb1:24t.a", "orange", [ "h0" ] ],
+    [ "esp:18", "bb1:24t.b", "orange", [ "h14.44", "v-105.6", "h-124.8", "v96" ] ],
+    [ "rgb1:R", "bb1:27b.f", "", [ "$bb" ] ],
+    [ "rgb1:COM", "bb1:28b.g", "", [ "$bb" ] ],
+    [ "rgb1:G", "bb1:29b.f", "", [ "$bb" ] ],
+    [ "rgb1:B", "bb1:30b.f", "", [ "$bb" ] ],
+    [ "led1:A", "bb1:25b.f", "", [ "$bb" ] ],
+    [ "led1:C", "bb1:24b.f", "", [ "$bb" ] ],
+    [ "pot1:GND", "bb1:bn.11", "black", [ "v0" ] ],
+    [ "pot1:VCC", "bb1:bp.13", "red", [ "v0" ] ],
+    [ "pot1:SIG", "bb1:15t.a", "green", [ "v0" ] ],
+    [ "esp:33", "bb1:15t.c", "green", [ "h0" ] ],
+    [ "dht1:VCC", "bb1:bp.4", "red", [ "v0" ] ],
+    [ "dht1:GND", "bb1:bn.6", "black", [ "v0" ] ],
+    [ "esp:25", "bb1:6t.d", "green", [ "v0" ] ],
+    [ "dht1:SDA", "bb1:6t.a", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

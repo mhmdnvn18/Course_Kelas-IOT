@@ -17,12 +17,14 @@
 ## ✔️Simulation
 [13. LED Blink](https://wokwi.com/projects/419641623892913153)
 [14. LED Lampu Lalu Lintas](https://wokwi.com/projects/419641824616586241)
+[15. Komentar](https://wokwi.com/projects/419642631528391681)
 
-
-
-
-[GitHub Pages](https://pages.github.com/) This site was built using 
-
+[16. Tipe Data dan Variabel](https://wokwi.com/projects/419641824616586241)
+[17. Membuat Variabel](https://wokwi.com/projects/419643856768534529)
+[18. Komunikasi Serial](https://wokwi.com/projects/419645667062704129)
+[19. Menampilkan Nilai Variabel](https://wokwi.com/projects/419646239809627137)
+[20. Cara Memasukan Nilai ke Variabel](https://wokwi.com/projects/419647160008498177)
+[21. Variabel Global dan Lokal](https://wokwi.com/projects/419647688959538177)
 
 
 

@@ -1,6 +1,6 @@
-Road To become an IoT Developer ✔️
+#Road To become an IoT Developer by Kelas-IoT✔️
 
-Internet of Things
+##Internet of Things
 1. Konsep IoT
 2. Bentuk Sinyal
 3. Teknik PWM
@@ -10,7 +10,7 @@ Internet of Things
 7. Development Board dan Production Board
 8. Framework Arduino
 
-SIMULATION
+##SIMULATION
 1. https://wokwi.com/projects/394966314545822721 : LED
 2. https://wokwi.com/projects/371032248007683073 : LED Blink
 3. Lampu Lalu Lintas

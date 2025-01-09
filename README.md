@@ -1,5 +1,8 @@
 # ✔️Road To become an IoT Developer by Kelas-IoT
-https://github.com/mhmdnvn18/Course_KelasIOT/blob/faf56152c212540ddd17a641eb81535d4b3352a7/.Lainnya/6.1.%20Pinout%20ESP32.png
+
+![Uploading 6.1. Pinout ESP32.png…]()
+
+
 ## ✔️Internet of Things
 1. Konsep IoT
 2. Bentuk Sinyal

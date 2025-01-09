@@ -1,6 +1,7 @@
 # ✔️Road To become an IoT Developer by Kelas-IoT
 
 ![6 1  Pinout ESP32](https://github.com/user-attachments/assets/6a577bfd-475c-4789-a74b-b50a14fb7368)
+[0. Materi Referensi.pdf](https://github.com/user-attachments/files/18367548/0.Materi.Referensi.pdf)
 
 
 ## ✔️Internet of Things

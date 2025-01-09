@@ -15,8 +15,8 @@
 8. Framework Arduino
 
 ## ✔️Simulation
-1. https://wokwi.com/projects/394966314545822721 : LED
-2. https://wokwi.com/projects/371032248007683073 : LED Blink
+1. [13. LED](https://wokwi.com/projects/419641623892913153)
+2. [14. LED Blink](https://wokwi.com/projects/419641824616586241)
 3. Lampu Lalu Lintas
 
 

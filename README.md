@@ -5,7 +5,7 @@
 
 
 ## ✔️Internet of Things
-1. Konsep IoT
+1.  [Konsep IoT]([https://pages.github.com/](https://github.com/mhmdnvn18/Course_Kelas-IOT/tree/ea43fd66eec50c829149b21a21eca8324f0db535/Materi/1.%20Pengenalan%20Konsep%20IoT))
 2. Bentuk Sinyal
 3. Teknik PWM
 4. Alur Data
@@ -18,7 +18,6 @@
 1. https://wokwi.com/projects/394966314545822721 : LED
 2. https://wokwi.com/projects/371032248007683073 : LED Blink
 3. Lampu Lalu Lintas
-
 
 
 

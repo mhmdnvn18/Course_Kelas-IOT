@@ -24,24 +24,30 @@
 [19. Menampilkan Nilai Variabel](https://wokwi.com/projects/419646239809627137)
 [20. Cara Memasukan Nilai ke Variabel](https://wokwi.com/projects/419647160008498177)
 [21. Variabel Global dan Lokal](https://wokwi.com/projects/419647688959538177)
+[22. Operator Aritmatika](https://wokwi.com/projects/419650232364606465)
+[23. Pengkondisian If](https://wokwi.com/projects/419650786391297025)
+[24. Increment dan Decrement](https://wokwi.com/projects/419652145334370305)
+[25. Perulangan While](https://wokwi.com/projects/419652433756758017)
+[26. Perulangan Do While](https://wokwi.com/projects/419653063528414209)
+[27. Perulangan For](https://wokwi.com/projects/419653360048954369)
+[28. Membuat Fungsi dan Prosedur](https://wokwi.com/projects/419684348956709889)
+[29. Argument Pada Fungsi](https://wokwi.com/projects/419687501780853761)
+[30. Membuat Prosedur](https://wokwi.com/projects/419688001045714945)
+[31. Menggunakan Include](https://wokwi.com/projects/419688664583622657)
+[32. RGB LED](https://wokwi.com/projects/419694921024312321)
+[33. Function pada RGB LED](https://wokwi.com/projects/419695922644152321)
+[34. Menggunakan Servo](https://wokwi.com/projects/419697464486228993)
+[35. Menggunakan servo lebih dari satu](https://wokwi.com/projects/419698628708811777)
+[36. Menggunakan Buzzer](https://wokwi.com/projects/419704443953759233)
+[37. Menggunakan LCD I2C](https://wokwi.com/projects/419705552639491073)
+[38. Menggunakan Lebih dari satu LCD I2C](https://wokwi.com/projects/419733602682043393)
+[39. Menggunakan Potensiometer](https://wokwi.com/projects/419734492265646081)
+[40. Menampilkan Nilai Potensiometer ke LCD](https://wokwi.com/projects/419735837387376641)
+[41. Mengubah nilai Potensiometer menjadi persen](https://wokwi.com/projects/419736968618472449)
+[42. Mengendalikan LED berdasarkan Nilai Potensiometer](https://wokwi.com/projects/419737834612267009)
+[43. Membaca nilai Push Button](https://wokwi.com/projects/419738318100211713)
 
-22. Operator Aritmatika https://wokwi.com/projects/419650232364606465
-23. Pengkondisian If https://wokwi.com/projects/419650786391297025
-24. Increment dan Decrement https://wokwi.com/projects/419652145334370305
-25. Perulangan While https://wokwi.com/projects/419652433756758017
-26. Perulangan Do While https://wokwi.com/projects/419653063528414209
-27. Perulangan For https://wokwi.com/projects/419653360048954369
 
-
-28. Membuat Fungsi dan Prosedur https://wokwi.com/projects/419684348956709889
-29. Argument Pada Fungsi https://wokwi.com/projects/419687501780853761
-30. Membuat Prosedur https://wokwi.com/projects/419688001045714945
-31. Menggunakan Include https://wokwi.com/projects/419688664583622657
-32. RGB LED https://wokwi.com/projects/419694921024312321
-33. Function pada RGB LED https://wokwi.com/projects/419695922644152321
-
-34. Menggunakan Servo https://wokwi.com/projects/419697464486228993
-35. Menggunakan servo lebih dari satu https://wokwi.com/projects/419698628708811777
 
 
 

@@ -18,7 +18,6 @@
 [13. LED Blink](https://wokwi.com/projects/419641623892913153)
 [14. LED Lampu Lalu Lintas](https://wokwi.com/projects/419641824616586241)
 [15. Komentar](https://wokwi.com/projects/419642631528391681)
-
 [16. Tipe Data dan Variabel](https://wokwi.com/projects/419641824616586241)
 [17. Membuat Variabel](https://wokwi.com/projects/419643856768534529)
 [18. Komunikasi Serial](https://wokwi.com/projects/419645667062704129)

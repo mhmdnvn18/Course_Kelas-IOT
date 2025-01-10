@@ -25,7 +25,12 @@
 [20. Cara Memasukan Nilai ke Variabel](https://wokwi.com/projects/419647160008498177)
 [21. Variabel Global dan Lokal](https://wokwi.com/projects/419647688959538177)
 
-
+22. Operator Aritmatika https://wokwi.com/projects/419650232364606465
+23. Pengkondisian If https://wokwi.com/projects/419650786391297025
+24. Increment dan Decrement https://wokwi.com/projects/419652145334370305
+25. Perulangan While https://wokwi.com/projects/419652433756758017
+26. Perulangan Do While https://wokwi.com/projects/419653063528414209
+27. Perulangan For https://wokwi.com/projects/419653360048954369
 
 
 > [!NOTE]

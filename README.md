@@ -33,5 +33,17 @@
 27. Perulangan For https://wokwi.com/projects/419653360048954369
 
 
+28. Membuat Fungsi dan Prosedur https://wokwi.com/projects/419684348956709889
+29. Argument Pada Fungsi https://wokwi.com/projects/419687501780853761
+30. Membuat Prosedur https://wokwi.com/projects/419688001045714945
+31. Menggunakan Include https://wokwi.com/projects/419688664583622657
+32. RGB LED https://wokwi.com/projects/419694921024312321
+33. Function pada RGB LED https://wokwi.com/projects/419695922644152321
+
+34. Menggunakan Servo https://wokwi.com/projects/419697464486228993
+35. Menggunakan servo lebih dari satu https://wokwi.com/projects/419698628708811777
+
+
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.

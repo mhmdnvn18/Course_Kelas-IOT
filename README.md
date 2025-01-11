@@ -46,6 +46,14 @@
 [41. Mengubah nilai Potensiometer menjadi persen](https://wokwi.com/projects/419736968618472449)
 [42. Mengendalikan LED berdasarkan Nilai Potensiometer](https://wokwi.com/projects/419737834612267009)
 [43. Membaca nilai Push Button](https://wokwi.com/projects/419738318100211713)
+[44. Membaca Nilai Push Button](https://wokwi.com/projects/419738318100211713)
+[45. Membuat Push Button sebagai Switch](https://wokwi.com/projects/419783989933998081)
+[46. Membaca Nilai LDR](https://wokwi.com/projects/419784339881591809)
+[47. Membuat Lampu Otomatis Berdasarkan Kondisi Cahaya](https://wokwi.com/projects/419785204957895681)
+[48. Membaca Suhu dan Kelembaban Ruangan dengan DHT22](https://wokwi.com/projects/419785486708196353)
+[49. Menampilkan Suhu dan Kelembaban ke LCD](https://wokwi.com/projects/419786110856330241)
+
+
 
 
 

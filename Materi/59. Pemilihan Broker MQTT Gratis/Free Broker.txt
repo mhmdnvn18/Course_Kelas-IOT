@@ -1,1 +1,5 @@
+Free Public Broker:
+
 https://www.emqx.com/en/mqtt/public-mqtt5-broker
+
+https://www.hivemq.com/mqtt/public-mqtt-broker/

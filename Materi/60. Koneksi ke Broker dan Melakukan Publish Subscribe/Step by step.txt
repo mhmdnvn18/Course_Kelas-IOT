@@ -1,0 +1,13 @@
+1. Buka website Broker https://www.emqx.com/en/mqtt/public-mqtt5-broker
+2. Bukan wbsite MQTT (https://mqttx.app/web-client#/).
+3. Click New Connection.
+4. Isi konfigurasinya
+   	a. Name: Bebas diisi apa saja.
+	b. Client ID: Diisi random dan tidak boleh ada yang sama.
+	c. Host: Isi alamat brokernya (EMQX: broker.emqx.io, HivMQ: , MQTTHQ: ).
+	d. Host: Jiak mengguanakan aplikasi dekstop pilih MQTT, jika menggunakan Website	   pilih WS/WSS (WebSocket/WebSocketSecure).
+	e. Isi Port: Isi sesuai broker yang dipilih (EMQX: WSS, 8084).
+	f. Khusus Configurasi Web, isi path sesuai brokernya (MQTTX: /mqtt)
+	g. Username dan Password mengikuti konfigurasi brokernya, namun karena menggunakan 	   yang gratis, tidak perlu diisi.
+	h. Bagian konfigurasi 'Advance' dibiarkan saja sesuai default.
+5. Tekan 'Connect', dan jika sudah 'Connected' artinya MQTT kita sudah tehubung ke Broker

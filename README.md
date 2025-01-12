@@ -55,9 +55,10 @@
 
 
 61. Menghubungkan ESP32 ke Wifi https://wokwi.com/projects/419886634230360065
-
-
-
+62. Menampilkan ke LCD https://wokwi.com/projects/419888271614534657
+63. Menampilkan Indikator WiFi ke RGB LED https://wokwi.com/projects/419890088780254209
+64. Menghubungkan ESP32 ke Broker MQTT https://wokwi.com/projects/419892393814839297
+65. Membuat fungsi reconnect https://wokwi.com/projects/419894575274716161
 
 
 

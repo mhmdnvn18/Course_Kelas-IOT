@@ -13,3 +13,5 @@
 5. Tekan 'Connect', dan jika sudah 'Connected' artinya MQTT kita sudah tehubung ke Broker
 
 6. Untuk melakukan Publish Data, Pilih 'Plaintext', lalu pilih 'QoS' sesuaikan dengan yang dibutuhkan, Retain Message digunakan untuk menyimpan data trakhir dibroker yang akan dikirimkan kembali ketika reconnect atau ada perangkat baru yang terhubung.
+
+7. Untuk melakukan Subscribe, tekan New Subscription lalu ketikan Topic yang ingin di subscribe

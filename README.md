@@ -61,7 +61,7 @@
 65. Membuat fungsi reconnect https://wokwi.com/projects/419894575274716161
 66. Melakukan Subscribe https://wokwi.com/projects/419895477510499329
 67. Mengendalikan LED menggunakan MQTT https://wokwi.com/projects/419899162970266625
-
+68. Mengendalikan Servo dengan MQTT https://wokwi.com/projects/419900615486167041
 
 
 

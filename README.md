@@ -60,6 +60,7 @@
 64. Menghubungkan ESP32 ke Broker MQTT https://wokwi.com/projects/419892393814839297
 65. Membuat fungsi reconnect https://wokwi.com/projects/419894575274716161
 66. Melakukan Subscribe https://wokwi.com/projects/419895477510499329
+67. Mengendalikan LED menggunakan MQTT https://wokwi.com/projects/419899162970266625
 
 
 

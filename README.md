@@ -68,16 +68,15 @@
 
 
 > [!NOTE]
-> Library Nusabot Simple Timer berfungsi untuk mengeksekusi sebuah fungsi (function) secara berkala setiap beberapa detik, tanpa menggunakan delay. 
-> Hal ini sangat berguna dalam skenario seperti melakukan publish data secara terjadwal.
-> Mengapa fungsi publish tidak diletakkan di 'void loop'?
+> Library Nusabot Simple Timer berfungsi untuk mengeksekusi sebuah fungsi (function) secara berkala setiap beberapa detik, tanpa menggunakan delay. Hal ini sangat berguna dalam skenario seperti melakukan publish data secara terjadwal.
+> **Mengapa fungsi publish tidak diletakkan di 'void loop'?**
 > - Jika publish dilakukan langsung di 'void loop', maka proses tersebut akan dieksekusi terlalu cepat dan berulang-ulang.
 > Hal ini dapat mengakibatkan pemborosan bandwidth karena banyaknya data serupa yang dikirim secara terus-menerus. Akibatnya, data menjadi tidak efisien dan berpotensi menghasilkan data sampah.
-> Mengapa tidak menggunakan delay?
+> **Mengapa tidak menggunakan delay?**
 > - Dalam proyek IoT yang bersifat real-time, penggunaan delay sebaiknya dihindari sama sekali, kecuali pada kondisi tertentu seperti:
->  1. Sebelum pengiriman data.
->  2. Sesudah pembacaan data sensor.
->  3. Saat menghubungkan perangkat ke WiFi atau broker MQTT.
+> 1. Sebelum pengiriman data.
+> 2. Sesudah pembacaan data sensor.
+> 3. Saat menghubungkan perangkat ke WiFi atau broker MQTT.
 > - Delay akan menyebabkan ESP32 berhenti sementara (freeze) dan tidak menjalankan proses lain. Jika pengiriman atau penerimaan data terjadi bersamaan dengan waktu delay, data tersebut dapat terlewat atau tidak sampai ke tujuan.
 > Sebagai solusinya, gunakan library Nusabot Simple Timer untuk mengatur eksekusi fungsi secara periodik tanpa menghambat proses lainnya.
 > https://github.com/nusabot-iot/NusabotSimpleTimer

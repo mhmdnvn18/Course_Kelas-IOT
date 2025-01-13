@@ -1,0 +1,697 @@
+{
+  "windowSize": {
+    "width": 1025,
+    "height": 749
+  },
+  "settings": {
+    "autoCheck": true,
+    "currentLang": "en",
+    "currentTheme": "night",
+    "autoResub": true,
+    "autoScroll": true,
+    "multiTopics": true,
+    "maxReconnectTimes": 10,
+    "autoScrollInterval": 0
+  },
+  "connections": [
+    {
+      "clientId": "mqttx_35644526",
+      "createAt": "2025-01-12 21:31:28:723",
+      "updateAt": "2025-01-13 01:25:11:596",
+      "name": "Kelas IoT - 66. Melakukan Subscribe (https://wokwi.com/projects/419895477510499329)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [
+        {
+          "topic": "nyoba/#",
+          "id": "scription_33096c09-cae1-4791-9875-5ad59ad9921d",
+          "color": "#CC8AA8",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-12 21:19:05:488"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message_6b431877-e559-4961-97be-fccb2834d088",
+          "out": true,
+          "createAt": "2025-01-12 21:35:18:064",
+          "topic": "kelasiot/data",
+          "payload": "halo",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_e451446a-eaa6-45bb-96cc-11ae9aea3508",
+          "out": false,
+          "createAt": "2025-01-12 21:40:41:308",
+          "topic": "kelasiot/data",
+          "payload": "halo",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_0cd091cd-dc16-4295-b49b-2531fbfe01c7",
+          "out": false,
+          "createAt": "2025-01-12 21:40:41:350",
+          "topic": "kelasiot/lampu",
+          "payload": "mati",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_a3f41e30-c48b-4fba-9749-b4cc765e89ed",
+          "out": true,
+          "createAt": "2025-01-12 21:40:57:410",
+          "topic": "kelasiot/data",
+          "payload": "apa kabar",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_07667be2-6388-4d71-8091-d92941a0f3c6",
+          "out": false,
+          "createAt": "2025-01-12 21:40:57:418",
+          "topic": "kelasiot/data",
+          "payload": "apa kabar",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_7b8f51f1-d102-4a6d-8c38-21bb661601b0",
+          "out": false,
+          "createAt": "2025-01-13 01:00:58:126",
+          "topic": "kelasiot/data",
+          "payload": "apa kabar",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_d58988e8-8160-4eba-8775-70695c62bcf1",
+          "out": false,
+          "createAt": "2025-01-13 01:00:58:129",
+          "topic": "kelasiot/lampu",
+          "payload": "mati",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_dd9d3a53-fe16-4fb7-8a9d-ed0f2da75f96",
+          "out": true,
+          "createAt": "2025-01-13 01:01:03:702",
+          "topic": "nyoba/data",
+          "payload": "hai",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_29b8d108-57cc-41be-a277-e7473d91d192",
+          "out": false,
+          "createAt": "2025-01-13 01:01:16:600",
+          "topic": "nyoba/data",
+          "payload": "hai",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_51b5fd46-bfbb-460c-b9b4-8a7677605d4c",
+          "out": true,
+          "createAt": "2025-01-13 01:03:21:199",
+          "topic": "nyoba/data",
+          "payload": "nyobain",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_616a5574-0c2d-444f-873a-4754708c55db",
+          "out": false,
+          "createAt": "2025-01-13 01:03:21:200",
+          "topic": "nyoba/data",
+          "payload": "nyobain",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6407c2a9-dedc-491d-ae33-8e055e355762",
+          "out": false,
+          "createAt": "2025-01-13 01:22:24:575",
+          "topic": "nyoba/data",
+          "payload": "nyobain",
+          "qos": 1,
+          "retain": true
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "a3cb4050-c345-43bc-9d9b-726c9be0f640"
+    },
+    {
+      "clientId": "mqttx_e459e50b",
+      "createAt": "2025-01-13 01:24:22:951",
+      "updateAt": "2025-01-13 01:25:37:957",
+      "name": "Kelas IoT - 67. Mengendalikan LED Menggunakan MQTT (https://wokwi.com/projects/419899162970266625)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [
+        {
+          "id": "message_bb2a1f4c-5455-4f52-8f79-ffc1ae9b559d",
+          "out": true,
+          "createAt": "2025-01-13 01:28:09:503",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_00de4cc3-5993-474e-bc89-0d46d4385e21",
+          "out": true,
+          "createAt": "2025-01-13 01:35:48:283",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_6d0aede9-6dd6-430e-a24d-cb8da0085114",
+          "out": true,
+          "createAt": "2025-01-13 01:35:55:927",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_4b423e89-14ab-449f-837b-b77d3778660c",
+          "out": true,
+          "createAt": "2025-01-13 01:38:45:129",
+          "topic": "LED/MERAH",
+          "payload": "MATI",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_f09f71a4-da17-47bb-b8c9-531856fb9c9a",
+          "out": true,
+          "createAt": "2025-01-13 01:38:52:598",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_69eb4bf8-a8b0-464f-9b53-64018b42d34c",
+          "out": true,
+          "createAt": "2025-01-13 01:56:04:002",
+          "topic": "SERVO/SERVO1\"",
+          "payload": "25",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_1289d342-f46a-43ea-ae4a-1dfb956afb76",
+          "out": true,
+          "createAt": "2025-01-13 01:57:57:613",
+          "topic": "SERVO/SERVO1\"",
+          "payload": "25",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_2e042a32-e363-45ca-8739-282f85737331",
+          "out": true,
+          "createAt": "2025-01-13 01:59:33:233",
+          "topic": "KONTROL/SERVO1\"",
+          "payload": "25",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_ceb57d11-e13f-42e5-811a-b81bed1f1ad4",
+          "out": true,
+          "createAt": "2025-01-13 01:59:41:192",
+          "topic": "KONTROL/LED\"",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_a27f7c20-64ed-4233-b419-2aa0669cdf42",
+          "out": true,
+          "createAt": "2025-01-13 02:00:26:756",
+          "topic": "KONTROL/LED\"",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_8efdc386-a9fa-4a7e-bd86-c06e3d8489c7",
+          "out": true,
+          "createAt": "2025-01-13 02:00:46:208",
+          "topic": "KONTROL/LED\"",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_0847a3aa-b2e3-4b77-9071-f7cd94dc3fb9",
+          "out": true,
+          "createAt": "2025-01-13 02:02:54:990",
+          "topic": "LED/MERAH",
+          "payload": "MATI",
+          "qos": 1,
+          "retain": true
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "78b5b52d-785e-47b4-9506-01b307cb2216"
+    },
+    {
+      "clientId": "mqttx_7f4b6cd9",
+      "createAt": "2025-01-13 02:03:16:542",
+      "updateAt": "2025-01-13 02:03:39:032",
+      "name": "Kelas IoT - 68. Mengendalikan Servo dengan MQTT (https://wokwi.com/projects/419900615486167041)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "533a473e-fa97-45e8-b6a4-e1156e77e141"
+    }
+  ],
+  "suggestConnections": [
+    {
+      "clientId": "mqttx_69804ac7",
+      "createAt": "2025-01-07 21:47:04:857",
+      "updateAt": "2025-01-07 21:47:04:858",
+      "name": "EMQX_Broker",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "998e83e5-ec71-4640-bd64-56dc0010afe6"
+    },
+    {
+      "clientId": "mqttx_35644526",
+      "createAt": "2025-01-12 21:31:28:723",
+      "updateAt": "2025-01-12 21:31:28:723",
+      "name": "EMQX_Broker",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "a3cb4050-c345-43bc-9d9b-726c9be0f640"
+    },
+    {
+      "clientId": "mqttx_e459e50b",
+      "createAt": "2025-01-13 01:24:22:951",
+      "updateAt": "2025-01-13 01:24:22:951",
+      "name": "Kelas IoT - 67. Mengendalikan LED Menggunakan MQTT (https://wokwi.com/projects/419899162970266625)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "78b5b52d-785e-47b4-9506-01b307cb2216"
+    },
+    {
+      "clientId": "mqttx_7f4b6cd9",
+      "createAt": "2025-01-13 02:03:16:542",
+      "updateAt": "2025-01-13 02:03:16:543",
+      "name": "Kelas IoT - 68. Mengendalikan Servo dengan MQTT",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "533a473e-fa97-45e8-b6a4-e1156e77e141"
+    }
+  ],
+  "payloadsHistory": [
+    {
+      "payload": "NYALA",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:10:52:654",
+      "id": "7dfff0b1-d569-4a1b-b68d-b3702caff27d"
+    },
+    {
+      "payload": "MATI",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:22:11:352",
+      "id": "75396444-7f7f-4000-9f7d-4c1a4bbc9e16"
+    },
+    {
+      "payload": "25",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 01:59:32:884",
+      "id": "68e4d415-5ab8-4cb6-80c8-5fba14f769da"
+    },
+    {
+      "payload": "35",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:07:43:649",
+      "id": "8a3a92ff-db02-4687-aa62-f71c56522710"
+    },
+    {
+      "payload": "50",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:21:44:322",
+      "id": "a83db44f-3a8d-47e4-8636-baba656bb2f3"
+    },
+    {
+      "payload": "60",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:24:58:570",
+      "id": "8bcabece-2ffa-4804-b3e0-a0735c6a0bf4"
+    },
+    {
+      "payload": "180",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:10:35:225",
+      "id": "3fa7159a-77f1-42b2-9f73-1cb07e979358"
+    },
+    {
+      "payload": "70",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:09:58:565",
+      "id": "53b0ba81-5284-4a6c-a6d1-571ed8859f8d"
+    },
+    {
+      "payload": "140",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:10:05:758",
+      "id": "67dd21e7-5fc5-44d4-bb52-6971d9f7a9b3"
+    },
+    {
+      "payload": "0",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:10:09:950",
+      "id": "6c34f4c5-d242-4e7d-acee-46ac4a5af9de"
+    }
+  ],
+  "headersHistory": [
+    {
+      "qos": 1,
+      "topic": "LED/MERAH",
+      "retain": true,
+      "createAt": "2025-01-13 02:06:01:690",
+      "id": "2c479401-ab8e-4d67-8acf-dfe1f2a1ed27"
+    },
+    {
+      "qos": 1,
+      "topic": "SERVO/SERVO1\"",
+      "retain": true,
+      "createAt": "2025-01-13 01:57:57:260",
+      "id": "85e483f3-39a8-4e51-a59f-7b458ca02766"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO1\"",
+      "retain": true,
+      "createAt": "2025-01-13 01:59:32:884",
+      "id": "2a257b45-b680-4916-8f54-f229f62cd172"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/LED\"",
+      "retain": true,
+      "createAt": "2025-01-13 02:00:45:859",
+      "id": "e93dc88f-8932-4910-8359-102a0332cd67"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/LED",
+      "retain": true,
+      "createAt": "2025-01-13 02:22:11:352",
+      "id": "917691cb-9b43-473d-ab3f-cc0f1aab3867"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO1",
+      "retain": true,
+      "createAt": "2025-01-13 02:21:44:322",
+      "id": "2f426551-9fd7-401d-b1c6-7c590991f68f"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO",
+      "retain": true,
+      "createAt": "2025-01-13 02:28:16:569",
+      "id": "6b6186ca-9c2a-46c6-b1dd-b5d94cc69785"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO",
+      "retain": false,
+      "createAt": "2025-01-13 02:29:51:676",
+      "id": "435da278-6ba2-4214-8742-d7e71462ba65"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO1",
+      "retain": false,
+      "createAt": "2025-01-13 06:10:35:226",
+      "id": "605d4d5a-f549-4228-b730-9f12a2f33691"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/LED",
+      "retain": false,
+      "createAt": "2025-01-13 06:10:52:655",
+      "id": "fc2c31b6-92fb-43f3-954c-4093b9853a1b"
+    }
+  ]
+}

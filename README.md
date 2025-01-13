@@ -84,6 +84,7 @@
 > 
 > Delay akan menyebabkan ESP32 berhenti sementara (freeze) dan tidak menjalankan proses lain. Jika pengiriman atau penerimaan data terjadi bersamaan dengan waktu delay, data tersebut dapat terlewat atau tidak sampai ke tujuan.
 > Sebagai solusinya, gunakan library Nusabot Simple Timer untuk mengatur eksekusi fungsi secara periodik tanpa menghambat proses lainnya.
+> 
 > https://github.com/nusabot-iot/NusabotSimpleTimer
 
 

@@ -68,8 +68,7 @@
 
 
 > [!NOTE]
-> 
-Library Nusabot Simple Timer berfungsi untuk mengeksekusi sebuah fungsi (function) secara berkala setiap beberapa detik, tanpa menggunakan delay. 
+> Library Nusabot Simple Timer berfungsi untuk mengeksekusi sebuah fungsi (function) secara berkala setiap beberapa detik, tanpa menggunakan delay. 
 Hal ini sangat berguna dalam skenario seperti melakukan publish data secara terjadwal.
 
 Mengapa fungsi publish tidak diletakkan di 'void loop'?
@@ -88,3 +87,8 @@ Mengapa tidak menggunakan delay?
 
 Sebagai solusinya, gunakan library Nusabot Simple Timer untuk mengatur eksekusi fungsi secara periodik tanpa menghambat proses lainnya.
 https://github.com/nusabot-iot/NusabotSimpleTimer
+
+
+
+> [!TIP]
+> [Helpful advice for doing things better or more easily.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)

@@ -54,6 +54,28 @@
 
 ---
 
+## 📚 Library yang Digunakan
+
+Berikut adalah beberapa library yang digunakan dalam proyek ini:
+
+1. **Arduino MQTT**  
+   [Repository](https://github.com/256dpi/arduino-mqtt)  
+   Digunakan untuk komunikasi MQTT yang memungkinkan ESP32 berinteraksi dengan broker MQTT.
+
+2. **LiquidCrystal_I2C**  
+   [Repository](https://github.com/johnrickman/LiquidCrystal_I2C)  
+   Library untuk mengontrol LCD I2C, sehingga mempermudah integrasi display dalam proyek.
+
+3. **ESP32Servo**  
+   [Dokumentasi](https://madhephaestus.github.io/ESP32Servo/annotated.html)  
+   Mendukung kontrol presisi servo motor pada ESP32 tanpa mengganggu fungsi lain.
+
+4. **Nusabot Simple Timer**  
+   [Repository](https://github.com/nusabot-iot/NusabotSimpleTimer)  
+   Digunakan untuk eksekusi fungsi secara periodik tanpa menggunakan `delay`.
+
+---
+
 ## 📌 Tips dan Catatan Penting
 
 ### Library **Nusabot Simple Timer**

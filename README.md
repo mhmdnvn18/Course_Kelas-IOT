@@ -85,4 +85,4 @@
 
 
 > [!TIP]
-> [Helpful advice for doing things better or more easily.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+> [Basic writing and formatting syntax in Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)

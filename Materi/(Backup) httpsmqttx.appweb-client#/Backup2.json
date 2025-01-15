@@ -1,0 +1,2244 @@
+{
+  "windowSize": {
+    "width": 1025,
+    "height": 749
+  },
+  "settings": {
+    "autoCheck": true,
+    "currentLang": "en",
+    "currentTheme": "night",
+    "autoResub": true,
+    "autoScroll": true,
+    "multiTopics": true,
+    "maxReconnectTimes": 10,
+    "autoScrollInterval": 0
+  },
+  "connections": [
+    {
+      "clientId": "mqttx_35644526",
+      "createAt": "2025-01-12 21:31:28:723",
+      "updateAt": "2025-01-13 01:25:11:596",
+      "name": "Kelas IoT - 66. Melakukan Subscribe (https://wokwi.com/projects/419895477510499329)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [
+        {
+          "topic": "nyoba/#",
+          "id": "scription_33096c09-cae1-4791-9875-5ad59ad9921d",
+          "color": "#CC8AA8",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-12 21:19:05:488"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message_6b431877-e559-4961-97be-fccb2834d088",
+          "out": true,
+          "createAt": "2025-01-12 21:35:18:064",
+          "topic": "kelasiot/data",
+          "payload": "halo",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_e451446a-eaa6-45bb-96cc-11ae9aea3508",
+          "out": false,
+          "createAt": "2025-01-12 21:40:41:308",
+          "topic": "kelasiot/data",
+          "payload": "halo",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_0cd091cd-dc16-4295-b49b-2531fbfe01c7",
+          "out": false,
+          "createAt": "2025-01-12 21:40:41:350",
+          "topic": "kelasiot/lampu",
+          "payload": "mati",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_a3f41e30-c48b-4fba-9749-b4cc765e89ed",
+          "out": true,
+          "createAt": "2025-01-12 21:40:57:410",
+          "topic": "kelasiot/data",
+          "payload": "apa kabar",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_07667be2-6388-4d71-8091-d92941a0f3c6",
+          "out": false,
+          "createAt": "2025-01-12 21:40:57:418",
+          "topic": "kelasiot/data",
+          "payload": "apa kabar",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_7b8f51f1-d102-4a6d-8c38-21bb661601b0",
+          "out": false,
+          "createAt": "2025-01-13 01:00:58:126",
+          "topic": "kelasiot/data",
+          "payload": "apa kabar",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_d58988e8-8160-4eba-8775-70695c62bcf1",
+          "out": false,
+          "createAt": "2025-01-13 01:00:58:129",
+          "topic": "kelasiot/lampu",
+          "payload": "mati",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_dd9d3a53-fe16-4fb7-8a9d-ed0f2da75f96",
+          "out": true,
+          "createAt": "2025-01-13 01:01:03:702",
+          "topic": "nyoba/data",
+          "payload": "hai",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_29b8d108-57cc-41be-a277-e7473d91d192",
+          "out": false,
+          "createAt": "2025-01-13 01:01:16:600",
+          "topic": "nyoba/data",
+          "payload": "hai",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_51b5fd46-bfbb-460c-b9b4-8a7677605d4c",
+          "out": true,
+          "createAt": "2025-01-13 01:03:21:199",
+          "topic": "nyoba/data",
+          "payload": "nyobain",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_616a5574-0c2d-444f-873a-4754708c55db",
+          "out": false,
+          "createAt": "2025-01-13 01:03:21:200",
+          "topic": "nyoba/data",
+          "payload": "nyobain",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6407c2a9-dedc-491d-ae33-8e055e355762",
+          "out": false,
+          "createAt": "2025-01-13 01:22:24:575",
+          "topic": "nyoba/data",
+          "payload": "nyobain",
+          "qos": 1,
+          "retain": true
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "a3cb4050-c345-43bc-9d9b-726c9be0f640"
+    },
+    {
+      "clientId": "mqttx_e459e50b",
+      "createAt": "2025-01-13 01:24:22:951",
+      "updateAt": "2025-01-13 01:25:37:957",
+      "name": "Kelas IoT - 67. Mengendalikan LED Menggunakan MQTT (https://wokwi.com/projects/419899162970266625)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [
+        {
+          "id": "message_bb2a1f4c-5455-4f52-8f79-ffc1ae9b559d",
+          "out": true,
+          "createAt": "2025-01-13 01:28:09:503",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_00de4cc3-5993-474e-bc89-0d46d4385e21",
+          "out": true,
+          "createAt": "2025-01-13 01:35:48:283",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_6d0aede9-6dd6-430e-a24d-cb8da0085114",
+          "out": true,
+          "createAt": "2025-01-13 01:35:55:927",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_4b423e89-14ab-449f-837b-b77d3778660c",
+          "out": true,
+          "createAt": "2025-01-13 01:38:45:129",
+          "topic": "LED/MERAH",
+          "payload": "MATI",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_f09f71a4-da17-47bb-b8c9-531856fb9c9a",
+          "out": true,
+          "createAt": "2025-01-13 01:38:52:598",
+          "topic": "LED/MERAH",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_69eb4bf8-a8b0-464f-9b53-64018b42d34c",
+          "out": true,
+          "createAt": "2025-01-13 01:56:04:002",
+          "topic": "SERVO/SERVO1\"",
+          "payload": "25",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_1289d342-f46a-43ea-ae4a-1dfb956afb76",
+          "out": true,
+          "createAt": "2025-01-13 01:57:57:613",
+          "topic": "SERVO/SERVO1\"",
+          "payload": "25",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_2e042a32-e363-45ca-8739-282f85737331",
+          "out": true,
+          "createAt": "2025-01-13 01:59:33:233",
+          "topic": "KONTROL/SERVO1\"",
+          "payload": "25",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_ceb57d11-e13f-42e5-811a-b81bed1f1ad4",
+          "out": true,
+          "createAt": "2025-01-13 01:59:41:192",
+          "topic": "KONTROL/LED\"",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_a27f7c20-64ed-4233-b419-2aa0669cdf42",
+          "out": true,
+          "createAt": "2025-01-13 02:00:26:756",
+          "topic": "KONTROL/LED\"",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_8efdc386-a9fa-4a7e-bd86-c06e3d8489c7",
+          "out": true,
+          "createAt": "2025-01-13 02:00:46:208",
+          "topic": "KONTROL/LED\"",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_0847a3aa-b2e3-4b77-9071-f7cd94dc3fb9",
+          "out": true,
+          "createAt": "2025-01-13 02:02:54:990",
+          "topic": "LED/MERAH",
+          "payload": "MATI",
+          "qos": 1,
+          "retain": true
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "78b5b52d-785e-47b4-9506-01b307cb2216"
+    },
+    {
+      "clientId": "mqttx_7f4b6cd9",
+      "createAt": "2025-01-13 02:03:16:542",
+      "updateAt": "2025-01-13 02:03:39:032",
+      "name": "Kelas IoT - 68. Mengendalikan Servo dengan MQTT (https://wokwi.com/projects/419900615486167041)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "533a473e-fa97-45e8-b6a4-e1156e77e141"
+    },
+    {
+      "clientId": "mqttx_e80b2ff4",
+      "createAt": "2025-01-13 17:32:34:571",
+      "updateAt": "2025-01-13 17:32:34:571",
+      "name": "Kelas IoT - 70. Melakukan Publish Data (https://wokwi.com/projects/419923559150619649)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [
+        {
+          "topic": "SENSOR/#",
+          "id": "scription_e662f41d-5f83-4e8d-add9-39af1ee82b22",
+          "color": "#138BF5",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 17:17:39:580"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message_dbaf3a72-c099-4f29-a3e9-46ba440fb6c2",
+          "out": false,
+          "createAt": "2025-01-13 17:40:35:627",
+          "topic": "SENSOR/PUBLISH",
+          "payload": "Halo",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3723a20a-7923-44c8-bbf5-06af2aecdd85",
+          "out": false,
+          "createAt": "2025-01-13 17:40:36:404",
+          "topic": "SENSOR/PUBLISH",
+          "payload": "Halo",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_9dde3e24-7532-4ea1-b02e-12f7e3b558d4",
+          "out": false,
+          "createAt": "2025-01-13 17:40:37:266",
+          "topic": "SENSOR/PUBLISH",
+          "payload": "Halo",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c7599095-b050-4a5d-a6ff-a339502d2de9",
+          "out": false,
+          "createAt": "2025-01-13 17:40:37:864",
+          "topic": "SENSOR/PUBLISH",
+          "payload": "Halo",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_351bcd34-6cb2-42f7-8cf0-3ffb217ba085",
+          "out": false,
+          "createAt": "2025-01-13 17:40:38:563",
+          "topic": "SENSOR/PUBLISH",
+          "payload": "Halo",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_b0d69c8e-090a-4d7c-bb64-ead909f398f2",
+          "out": false,
+          "createAt": "2025-01-13 17:40:39:378",
+          "topic": "SENSOR/PUBLISH",
+          "payload": "Halo",
+          "qos": 1,
+          "retain": false
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "eb5e63e6-91b9-41ae-b5bb-595364a25ef6"
+    },
+    {
+      "clientId": "mqttx_ae3e8e5f",
+      "createAt": "2025-01-13 17:51:16:729",
+      "updateAt": "2025-01-13 17:51:16:729",
+      "name": "Kelas IoT - 71. Publish Data Potensiometer (https://wokwi.com/projects/419961018911862785)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [
+        {
+          "topic": "SENSOR/#",
+          "id": "scription_a75d14ad-b44e-4aeb-9b5c-52d04c4711cd",
+          "color": "#C5E320",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 18:00:03:424"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message_3a408143-4a43-4be4-986e-e236e73ac5ac",
+          "out": false,
+          "createAt": "2025-01-13 18:02:49:269",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_04ae4b14-98b1-487b-b0e5-fff44b6c93ed",
+          "out": false,
+          "createAt": "2025-01-13 18:02:49:801",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e89007eb-d313-4367-b6ca-d7e904baeb07",
+          "out": false,
+          "createAt": "2025-01-13 18:02:50:348",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_de79e10b-c3eb-439f-ac85-0b802f79f2cc",
+          "out": false,
+          "createAt": "2025-01-13 18:02:50:876",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_40358274-c7f8-42cc-98be-03fe45a8a6d9",
+          "out": false,
+          "createAt": "2025-01-13 18:02:51:451",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_eb146205-7403-4c6f-9364-3128c695587e",
+          "out": false,
+          "createAt": "2025-01-13 18:02:54:086",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3fd31b03-b598-452f-8c18-64a07255ab31",
+          "out": false,
+          "createAt": "2025-01-13 18:02:55:163",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "4095",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c77cd519-96b2-48f4-939e-45edef3cfd35",
+          "out": false,
+          "createAt": "2025-01-13 18:02:56:283",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_d58b300f-dce3-4afe-9c9b-6e77b1c3b34f",
+          "out": false,
+          "createAt": "2025-01-13 18:02:58:522",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_aaf4314a-3882-4fc4-9524-134aefa380ce",
+          "out": false,
+          "createAt": "2025-01-13 18:02:59:663",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_812226c8-2cb4-4c01-9dfe-9cc27ca52343",
+          "out": false,
+          "createAt": "2025-01-13 18:03:00:744",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_460be6ba-029a-49ef-8295-f64ae42f6a31",
+          "out": false,
+          "createAt": "2025-01-13 18:03:01:861",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_178c320a-a86d-4805-9422-7786d8282d74",
+          "out": false,
+          "createAt": "2025-01-13 18:03:03:471",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_5588159d-528e-40ef-8886-e54084d887f9",
+          "out": false,
+          "createAt": "2025-01-13 18:03:04:033",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_2fa064d8-fd37-4a89-bb45-8b81fd19aacf",
+          "out": false,
+          "createAt": "2025-01-13 18:03:05:189",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_a9499d35-f489-4591-9190-adf5c77eacf1",
+          "out": false,
+          "createAt": "2025-01-13 18:03:06:387",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_70ad6260-8919-42c5-b32e-95145e00b19a",
+          "out": false,
+          "createAt": "2025-01-13 18:03:07:404",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_2eeec07d-5d08-4a15-9120-16c7b7e5c04e",
+          "out": false,
+          "createAt": "2025-01-13 18:03:08:481",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_1104a98a-2b5f-456d-b2b9-ead6406bf7c8",
+          "out": false,
+          "createAt": "2025-01-13 18:03:09:559",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_bff3edf9-cb70-4004-83b0-198f9b8277c5",
+          "out": false,
+          "createAt": "2025-01-13 18:03:10:595",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ac649de5-2a5e-423c-a9fe-f8cce1079da7",
+          "out": false,
+          "createAt": "2025-01-13 18:03:11:751",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_19a20e49-5a6a-4098-9e1e-b442f640aad2",
+          "out": false,
+          "createAt": "2025-01-13 18:03:12:804",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_78d71fbf-531c-4e6c-bc0d-4131b03f0eff",
+          "out": false,
+          "createAt": "2025-01-13 18:03:13:909",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_b130a580-0586-42ba-ae9e-07a85ec4adcd",
+          "out": false,
+          "createAt": "2025-01-13 18:03:15:002",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6ae21e39-76ff-4fac-912c-ba8486be5ad2",
+          "out": false,
+          "createAt": "2025-01-13 18:03:16:021",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_fe9a51a7-9253-4cb9-a8f6-71e426c10519",
+          "out": false,
+          "createAt": "2025-01-13 18:03:17:105",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_5bbb5e02-8cd1-4329-a4ac-40edc10775fd",
+          "out": false,
+          "createAt": "2025-01-13 18:03:18:184",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_66a73ebe-5bc5-4607-a5b6-d431ff44bcbd",
+          "out": false,
+          "createAt": "2025-01-13 18:03:19:361",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_0c827a72-eca9-44e8-9476-5d6a6af1bca7",
+          "out": false,
+          "createAt": "2025-01-13 18:03:20:361",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ab83decc-e740-4276-9fdb-f8b1cb7dc60f",
+          "out": false,
+          "createAt": "2025-01-13 18:03:21:399",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6da53c4d-1604-4216-9a7b-3eee6a0a6b3a",
+          "out": false,
+          "createAt": "2025-01-13 18:03:22:497",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_59f197cd-0a2a-4f9c-9448-8af502832110",
+          "out": false,
+          "createAt": "2025-01-13 18:03:23:585",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ecfbfaa1-f365-4e03-9ce1-71098f33507e",
+          "out": false,
+          "createAt": "2025-01-13 18:03:24:665",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_050682d2-7e0b-4bb1-922d-6e5326afa434",
+          "out": false,
+          "createAt": "2025-01-13 18:03:25:723",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_162334c2-a88a-4948-aa72-83f41ee89980",
+          "out": false,
+          "createAt": "2025-01-13 18:03:26:803",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_f84b7468-4a75-4085-83cf-3efa6dc9f6a4",
+          "out": false,
+          "createAt": "2025-01-13 18:03:27:869",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_96464117-b4cd-4440-9bbe-c155f82fccfb",
+          "out": false,
+          "createAt": "2025-01-13 18:03:29:009",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_a66b535b-79ba-4777-bc4a-efa610d29446",
+          "out": false,
+          "createAt": "2025-01-13 18:03:30:107",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_61d8a9c2-7d28-4ec7-8d2b-43a215ea2a93",
+          "out": false,
+          "createAt": "2025-01-13 18:03:31:106",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_032777d1-e045-49e8-9a5f-7154e8843888",
+          "out": false,
+          "createAt": "2025-01-13 18:03:35:970",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_327cb961-f4af-4662-9a3c-64937faa601a",
+          "out": false,
+          "createAt": "2025-01-13 18:03:36:987",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_147c4e32-fa2b-4e0b-a00e-8185557deef5",
+          "out": false,
+          "createAt": "2025-01-13 18:03:50:900",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "031cd514-ffe6-495b-9724-6abde907d773"
+    },
+    {
+      "clientId": "mqttx_050d7678",
+      "createAt": "2025-01-13 18:15:07:082",
+      "updateAt": "2025-01-13 18:15:07:082",
+      "name": "Kelas IoT - 72. Publish Data hanya jika ada perubahan nilai sensor (https://wokwi.com/projects/419962568402282497)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [
+        {
+          "topic": "SENSOR/#",
+          "id": "scription_d01f513a-4895-4b05-be5c-05b7688ce18a",
+          "color": "#E5CD04",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 18:00:03:424"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message_f2e9d760-5021-4983-b62e-2385a6bcea0c",
+          "out": false,
+          "createAt": "2025-01-13 18:17:18:747",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2410",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_61db7ed5-d057-429f-8f13-6713201313ca",
+          "out": false,
+          "createAt": "2025-01-13 18:17:26:878",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "3050",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_aa667d6b-896d-4ba1-8d51-3e8908d71842",
+          "out": false,
+          "createAt": "2025-01-13 18:17:27:749",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "3138",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_f1f5475e-3746-4774-96fd-6d46bf4002e1",
+          "out": false,
+          "createAt": "2025-01-13 18:17:33:256",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "3579",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_a0d0db23-f347-45d3-83b1-d928f41a9880",
+          "out": false,
+          "createAt": "2025-01-13 18:17:37:045",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "1609",
+          "qos": 1,
+          "retain": false
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "b03c1dae-3d9e-4f53-a791-155de19db82c"
+    },
+    {
+      "clientId": "mqttx_ef18532d",
+      "createAt": "2025-01-13 18:20:26:850",
+      "updateAt": "2025-01-13 18:20:26:850",
+      "name": "Kelas IoT - 73. Publish Data Suhu Kelembaban dengan Retain (https://wokwi.com/projects/419963398096521217)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [
+        {
+          "topic": "SENSOR/POTENSIOMETER",
+          "id": "scription_484e34c1-1bf6-4f63-8ce2-c7bb50bf9586",
+          "color": "#ABBC60",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 18:00:03:424"
+        },
+        {
+          "topic": "SENSOR/SUHU",
+          "id": "scription_06afdc3c-02de-4d13-849b-6d12903c83da",
+          "color": "#6EA821",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 18:00:03:424"
+        },
+        {
+          "topic": "SENSOR/KELEMBAPAN",
+          "id": "scription_3fd63aa3-406a-4b0b-851e-f86e816b13cf",
+          "color": "#9D41E2",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 18:00:03:424"
+        },
+        {
+          "topic": "SENSOR/#",
+          "id": "scription_33d967a7-ad3e-4672-8b0b-c920e6a9b355",
+          "color": "#B596FE",
+          "alias": "",
+          "qos": 1,
+          "disabled": false,
+          "createAt": "2025-01-13 18:00:03:424"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message_df3a6d97-637b-407a-a63e-0c1375ede0ff",
+          "out": false,
+          "createAt": "2025-01-13 19:08:23:061",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_16337494-ea94-4f9a-ae0c-15c5521a3b44",
+          "out": false,
+          "createAt": "2025-01-13 19:08:23:574",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_96cb6188-273b-457b-a55a-454b62f5292d",
+          "out": false,
+          "createAt": "2025-01-13 19:08:29:936",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_7e94bd44-972f-4239-9630-84016a20ae09",
+          "out": false,
+          "createAt": "2025-01-13 19:08:30:497",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c08fbd36-fc3c-47c7-8a52-f197b138af1b",
+          "out": false,
+          "createAt": "2025-01-13 19:08:32:020",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "1153",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6e4169dc-fc30-4edf-b468-1cb4274f8760",
+          "out": false,
+          "createAt": "2025-01-13 19:08:42:717",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_d54d4770-052f-4b1f-aed9-2853e00b2690",
+          "out": false,
+          "createAt": "2025-01-13 19:08:43:256",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_2f92e610-610a-4e4e-a606-33d24956843e",
+          "out": false,
+          "createAt": "2025-01-13 19:08:44:735",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "3170",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3da36b71-3030-46ea-a687-be286d9db0b1",
+          "out": false,
+          "createAt": "2025-01-13 19:08:47:827",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_97f8de68-f655-4b85-9631-d3e3255faef5",
+          "out": false,
+          "createAt": "2025-01-13 19:08:48:389",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_43733c5a-db20-4a0b-8d24-14de9f8435cc",
+          "out": false,
+          "createAt": "2025-01-13 19:08:48:903",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "2774",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_dabca2d5-79ab-408f-b8eb-24cf0fd83a47",
+          "out": false,
+          "createAt": "2025-01-13 19:08:49:790",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "1865",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_9ae2b3df-c468-4e7d-81a9-bd36e7769f27",
+          "out": false,
+          "createAt": "2025-01-13 19:08:50:377",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_4a4e2f1a-b6b4-4862-81c0-b3b0f442c548",
+          "out": false,
+          "createAt": "2025-01-13 19:08:50:951",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e9a618fb-43ba-44c9-bff7-bdb8158fd089",
+          "out": false,
+          "createAt": "2025-01-13 19:08:54:001",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_96b80401-d685-468a-92d2-aa5d27be8f67",
+          "out": false,
+          "createAt": "2025-01-13 19:09:04:223",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e5dfad07-12b2-42eb-9d00-51332774c90d",
+          "out": false,
+          "createAt": "2025-01-13 19:09:06:071",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_090c36f6-0b75-494c-a51f-604d34e14e10",
+          "out": false,
+          "createAt": "2025-01-13 19:09:06:622",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_942f8243-f7d1-4ec4-b843-5b92fe7192c9",
+          "out": false,
+          "createAt": "2025-01-13 19:09:08:301",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_a16ab48d-4de6-47e2-841f-8958de2f0015",
+          "out": false,
+          "createAt": "2025-01-13 19:09:08:864",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_fa82b6da-fa1e-458a-946d-77de0f09224d",
+          "out": false,
+          "createAt": "2025-01-13 19:09:10:543",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_695ce180-477f-4174-bf63-6c60cae1fcf9",
+          "out": false,
+          "createAt": "2025-01-13 19:09:11:079",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c06a3307-bc72-4d22-8b33-e987d04ca9f1",
+          "out": false,
+          "createAt": "2025-01-13 19:09:13:253",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_caa88b36-e43f-44d2-bdbd-739ff12a6438",
+          "out": false,
+          "createAt": "2025-01-13 19:09:14:859",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_4ff5dd12-ad41-4f00-9f3b-1ae3078f0d80",
+          "out": false,
+          "createAt": "2025-01-13 19:09:16:561",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_cfb12186-2d39-4756-a418-b8de508e126f",
+          "out": false,
+          "createAt": "2025-01-13 19:09:24:400",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ea705a54-913a-472d-959a-bf4239c5f242",
+          "out": false,
+          "createAt": "2025-01-13 19:09:26:059",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_922b4546-8fd4-44a1-b2d7-c8a2eb528c6b",
+          "out": false,
+          "createAt": "2025-01-13 19:09:26:620",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3f09cf2e-6121-4b3c-a2b0-e09e678ca94f",
+          "out": false,
+          "createAt": "2025-01-13 19:09:28:323",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e51f803e-ea7c-4af6-816d-9a01c1b168d1",
+          "out": false,
+          "createAt": "2025-01-13 19:09:30:106",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3079ea04-2f47-4065-a5a0-e7a7becdb76d",
+          "out": false,
+          "createAt": "2025-01-13 19:09:33:432",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_a2c05ebd-9dfc-4723-88bc-e8f5a553a88f",
+          "out": false,
+          "createAt": "2025-01-13 19:09:33:988",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ca011a0f-959d-499a-a950-a714c39d1c7b",
+          "out": false,
+          "createAt": "2025-01-13 19:09:35:660",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c33157a9-1e81-4e38-bf75-386786988a82",
+          "out": false,
+          "createAt": "2025-01-13 19:09:47:090",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_ab9576fd-a9d8-4a76-8454-df65aeac9634",
+          "out": false,
+          "createAt": "2025-01-13 19:09:47:117",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": true
+        },
+        {
+          "id": "message_331d50d9-ab41-4e2a-aef7-ecab470a687b",
+          "out": false,
+          "createAt": "2025-01-13 19:09:59:224",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "3611",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c4842b47-d2c5-42e5-9eaf-868668555445",
+          "out": false,
+          "createAt": "2025-01-13 19:09:59:248",
+          "topic": "SENSOR/POTENSIOMETER",
+          "payload": "3611",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ea213a6b-fc7c-4d79-aea5-59c3c998c1e9",
+          "out": false,
+          "createAt": "2025-01-13 19:10:00:025",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6ea0cdc1-981e-444c-91de-49de9cb03bbb",
+          "out": false,
+          "createAt": "2025-01-13 19:10:00:045",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_d237a4e4-40de-446c-bd50-65c451431a47",
+          "out": false,
+          "createAt": "2025-01-13 19:10:05:508",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6efe8b6d-7621-4af6-ad18-f7408c59aa47",
+          "out": false,
+          "createAt": "2025-01-13 19:10:05:524",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_a65fefe3-77ac-4b35-b887-7499588e91b3",
+          "out": true,
+          "createAt": "2025-01-13 19:10:17:203",
+          "topic": "KONTROL/LED",
+          "payload": "NYALA",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6bf1824c-434a-4a54-822c-ba8ce3db865a",
+          "out": false,
+          "createAt": "2025-01-13 19:10:19:095",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3b22c6cb-e75f-4b14-aa5e-caa5a50f928a",
+          "out": false,
+          "createAt": "2025-01-13 19:10:19:127",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_fbb07de7-db7a-4e31-b6ab-81c9b058cf19",
+          "out": false,
+          "createAt": "2025-01-13 19:10:19:628",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_90c79e6b-c3fa-462c-952e-1364971672cd",
+          "out": false,
+          "createAt": "2025-01-13 19:10:19:651",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e4fba1ee-68a7-4e75-9d83-30e0336c3d92",
+          "out": false,
+          "createAt": "2025-01-13 19:10:21:277",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e34c514e-4de6-4e2f-85b5-e4484bd7102c",
+          "out": false,
+          "createAt": "2025-01-13 19:10:21:304",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_8b0bc15a-2ee6-4c01-ab69-397e214a786c",
+          "out": false,
+          "createAt": "2025-01-13 19:10:21:795",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_fea97098-67af-41e0-99b7-293f88b4f2b9",
+          "out": false,
+          "createAt": "2025-01-13 19:10:21:814",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ef2c34d6-0f7c-4026-bb15-586abe5038de",
+          "out": false,
+          "createAt": "2025-01-13 19:10:23:510",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_fdbf98ec-978e-4573-949b-ba58325f6bd7",
+          "out": false,
+          "createAt": "2025-01-13 19:10:23:536",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_0f5a9f2e-bfed-4e64-9f3e-74351e7342c5",
+          "out": false,
+          "createAt": "2025-01-13 19:10:24:041",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c3d616fc-6672-40e5-9c52-6126f0b3c2a6",
+          "out": false,
+          "createAt": "2025-01-13 19:10:24:063",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_78285883-e379-4653-a326-e399a3d945e0",
+          "out": false,
+          "createAt": "2025-01-13 19:10:38:001",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_044b255e-3aef-48e2-aca8-216c5cfe066b",
+          "out": false,
+          "createAt": "2025-01-13 19:10:38:034",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ee058dc0-f006-49c5-82b5-9adea8390c39",
+          "out": false,
+          "createAt": "2025-01-13 19:10:38:522",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_5a1a3ee0-c8e0-483d-8ccb-3fc95c65f0ca",
+          "out": false,
+          "createAt": "2025-01-13 19:10:38:545",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_1533a892-539e-46a5-a077-8173fdbe5f9f",
+          "out": false,
+          "createAt": "2025-01-13 19:10:40:298",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_0ba154cc-5d4c-4de1-8002-83ce10527701",
+          "out": false,
+          "createAt": "2025-01-13 19:10:40:300",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_3f24f487-07a7-4c1b-9421-c1869069334a",
+          "out": false,
+          "createAt": "2025-01-13 19:10:40:861",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_1965f9bb-969b-46c1-8586-99534af16fc1",
+          "out": false,
+          "createAt": "2025-01-13 19:10:40:888",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_ada4bc77-d2ef-457b-989d-3f6ad6e007bf",
+          "out": false,
+          "createAt": "2025-01-13 19:10:42:471",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_6f10fd6f-a467-42cc-8da4-ece3aa38f7de",
+          "out": false,
+          "createAt": "2025-01-13 19:10:42:497",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_dd193e25-1219-4adc-a372-ca3d05d85c39",
+          "out": false,
+          "createAt": "2025-01-13 19:10:43:034",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_5214ca61-86e1-4366-9aee-c36ed6e84061",
+          "out": false,
+          "createAt": "2025-01-13 19:10:43:105",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_c0426bbd-269c-4157-8690-202b57695743",
+          "out": true,
+          "createAt": "2025-01-13 19:10:48:218",
+          "topic": "KONTROL/SERVO1",
+          "payload": "180",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_08a988e0-94f8-45f9-bc81-2f7fa432c476",
+          "out": false,
+          "createAt": "2025-01-13 19:10:50:164",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_e12f5f9a-baf0-46db-a1dc-3158cd0c1244",
+          "out": false,
+          "createAt": "2025-01-13 19:10:50:167",
+          "topic": "SENSOR/SUHU",
+          "payload": "24.00",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_db4d7142-aaa5-4ad3-95a6-4000f126874a",
+          "out": false,
+          "createAt": "2025-01-13 19:10:50:688",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        },
+        {
+          "id": "message_0186bd0d-7ea0-4390-b4a4-796995fb30fa",
+          "out": false,
+          "createAt": "2025-01-13 19:10:50:711",
+          "topic": "SENSOR/KELEMBAPAN",
+          "payload": "40.0",
+          "qos": 1,
+          "retain": false
+        }
+      ],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "fe7f5366-e508-49b5-8b11-d2d87a4866ed"
+    }
+  ],
+  "suggestConnections": [
+    {
+      "clientId": "mqttx_69804ac7",
+      "createAt": "2025-01-07 21:47:04:857",
+      "updateAt": "2025-01-07 21:47:04:858",
+      "name": "EMQX_Broker",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "998e83e5-ec71-4640-bd64-56dc0010afe6"
+    },
+    {
+      "clientId": "mqttx_35644526",
+      "createAt": "2025-01-12 21:31:28:723",
+      "updateAt": "2025-01-12 21:31:28:723",
+      "name": "EMQX_Broker",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "a3cb4050-c345-43bc-9d9b-726c9be0f640"
+    },
+    {
+      "clientId": "mqttx_e459e50b",
+      "createAt": "2025-01-13 01:24:22:951",
+      "updateAt": "2025-01-13 01:24:22:951",
+      "name": "Kelas IoT - 67. Mengendalikan LED Menggunakan MQTT (https://wokwi.com/projects/419899162970266625)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "78b5b52d-785e-47b4-9506-01b307cb2216"
+    },
+    {
+      "clientId": "mqttx_7f4b6cd9",
+      "createAt": "2025-01-13 02:03:16:542",
+      "updateAt": "2025-01-13 02:03:16:543",
+      "name": "Kelas IoT - 68. Mengendalikan Servo dengan MQTT",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "533a473e-fa97-45e8-b6a4-e1156e77e141"
+    },
+    {
+      "clientId": "mqttx_e80b2ff4",
+      "createAt": "2025-01-13 17:32:34:571",
+      "updateAt": "2025-01-13 17:32:34:571",
+      "name": "Kelas IoT - 70. Melakukan Publish Data (https://wokwi.com/projects/419923559150619649)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "eb5e63e6-91b9-41ae-b5bb-595364a25ef6"
+    },
+    {
+      "clientId": "mqttx_ae3e8e5f",
+      "createAt": "2025-01-13 17:51:16:729",
+      "updateAt": "2025-01-13 17:51:16:729",
+      "name": "Kelas IoT - 71. Publish Data Potensiometer (https://wokwi.com/projects/419961018911862785)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "031cd514-ffe6-495b-9724-6abde907d773"
+    },
+    {
+      "clientId": "mqttx_050d7678",
+      "createAt": "2025-01-13 18:15:07:082",
+      "updateAt": "2025-01-13 18:15:07:082",
+      "name": "Kelas IoT - 72. Publish Data hanya jika ada perubahan nilai sensor (https://wokwi.com/projects/419962568402282497)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "b03c1dae-3d9e-4f53-a791-155de19db82c"
+    },
+    {
+      "clientId": "mqttx_ef18532d",
+      "createAt": "2025-01-13 18:20:26:850",
+      "updateAt": "2025-01-13 18:20:26:850",
+      "name": "Kelas IoT - 73. Publish Data Suhu Kelembaban dengan Retain (https://wokwi.com/projects/419963398096521217)",
+      "clean": true,
+      "protocol": "wss",
+      "host": "broker.emqx.io",
+      "keepalive": 60,
+      "connectTimeout": 10,
+      "reconnect": true,
+      "reconnectPeriod": 4000,
+      "username": "",
+      "password": "",
+      "path": "/mqtt",
+      "port": 8084,
+      "ssl": false,
+      "certType": "",
+      "rejectUnauthorized": true,
+      "ALPNProtocols": "",
+      "ca": "",
+      "cert": "",
+      "key": "",
+      "mqttVersion": "5.0",
+      "subscriptions": [],
+      "messages": [],
+      "pushProps": {},
+      "unreadMessageCount": 0,
+      "client": {
+        "connected": false
+      },
+      "will": {
+        "lastWillTopic": "",
+        "lastWillPayload": "",
+        "lastWillQos": 0,
+        "lastWillRetain": false,
+        "properties": {
+          "contentType": "",
+          "responseTopic": ""
+        }
+      },
+      "properties": {},
+      "clientIdWithTime": false,
+      "id": "fe7f5366-e508-49b5-8b11-d2d87a4866ed"
+    }
+  ],
+  "payloadsHistory": [
+    {
+      "payload": "NYALA",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 19:10:16:959",
+      "id": "7dfff0b1-d569-4a1b-b68d-b3702caff27d"
+    },
+    {
+      "payload": "MATI",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:22:11:352",
+      "id": "75396444-7f7f-4000-9f7d-4c1a4bbc9e16"
+    },
+    {
+      "payload": "25",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 01:59:32:884",
+      "id": "68e4d415-5ab8-4cb6-80c8-5fba14f769da"
+    },
+    {
+      "payload": "35",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:07:43:649",
+      "id": "8a3a92ff-db02-4687-aa62-f71c56522710"
+    },
+    {
+      "payload": "50",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:21:44:322",
+      "id": "a83db44f-3a8d-47e4-8636-baba656bb2f3"
+    },
+    {
+      "payload": "60",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 02:24:58:570",
+      "id": "8bcabece-2ffa-4804-b3e0-a0735c6a0bf4"
+    },
+    {
+      "payload": "180",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 19:10:47:955",
+      "id": "3fa7159a-77f1-42b2-9f73-1cb07e979358"
+    },
+    {
+      "payload": "70",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:09:58:565",
+      "id": "53b0ba81-5284-4a6c-a6d1-571ed8859f8d"
+    },
+    {
+      "payload": "140",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:10:05:758",
+      "id": "67dd21e7-5fc5-44d4-bb52-6971d9f7a9b3"
+    },
+    {
+      "payload": "0",
+      "payloadType": "Plaintext",
+      "createAt": "2025-01-13 06:10:09:950",
+      "id": "6c34f4c5-d242-4e7d-acee-46ac4a5af9de"
+    }
+  ],
+  "headersHistory": [
+    {
+      "qos": 1,
+      "topic": "LED/MERAH",
+      "retain": true,
+      "createAt": "2025-01-13 02:06:01:690",
+      "id": "2c479401-ab8e-4d67-8acf-dfe1f2a1ed27"
+    },
+    {
+      "qos": 1,
+      "topic": "SERVO/SERVO1\"",
+      "retain": true,
+      "createAt": "2025-01-13 01:57:57:260",
+      "id": "85e483f3-39a8-4e51-a59f-7b458ca02766"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO1\"",
+      "retain": true,
+      "createAt": "2025-01-13 01:59:32:884",
+      "id": "2a257b45-b680-4916-8f54-f229f62cd172"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/LED\"",
+      "retain": true,
+      "createAt": "2025-01-13 02:00:45:859",
+      "id": "e93dc88f-8932-4910-8359-102a0332cd67"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/LED",
+      "retain": true,
+      "createAt": "2025-01-13 02:22:11:352",
+      "id": "917691cb-9b43-473d-ab3f-cc0f1aab3867"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO1",
+      "retain": true,
+      "createAt": "2025-01-13 02:21:44:322",
+      "id": "2f426551-9fd7-401d-b1c6-7c590991f68f"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO",
+      "retain": true,
+      "createAt": "2025-01-13 02:28:16:569",
+      "id": "6b6186ca-9c2a-46c6-b1dd-b5d94cc69785"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO",
+      "retain": false,
+      "createAt": "2025-01-13 02:29:51:676",
+      "id": "435da278-6ba2-4214-8742-d7e71462ba65"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/SERVO1",
+      "retain": false,
+      "createAt": "2025-01-13 19:10:47:956",
+      "id": "605d4d5a-f549-4228-b730-9f12a2f33691"
+    },
+    {
+      "qos": 1,
+      "topic": "KONTROL/LED",
+      "retain": false,
+      "createAt": "2025-01-13 19:10:16:960",
+      "id": "fc2c31b6-92fb-43f3-954c-4093b9853a1b"
+    }
+  ]
+}

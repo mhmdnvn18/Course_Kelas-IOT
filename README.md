@@ -1,3 +1,11 @@
+70. Melakukan Publish Data https://wokwi.com/projects/419923559150619649
+71. Publish Data Potensiometer https://wokwi.com/projects/419961018911862785
+72. Publish data hanya jika ada perubahan nilai https://wokwi.com/projects/419962568402282497
+73. Publish data suhu kelembabapn dengan retain https://wokwi.com/projects/419963398096521217
+74. Mengatur LastWILL untuk status Online atau Offline https://wokwi.com/projects/419968688532378625
+
+
+
 # ✔️ Road to Becoming an IoT Developer by Kelas-IoT
 
 ![Pinout ESP32](https://github.com/user-attachments/assets/6a577bfd-475c-4789-a74b-b50a14fb7368)  

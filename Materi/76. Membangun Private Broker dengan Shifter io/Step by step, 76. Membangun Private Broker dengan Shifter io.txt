@@ -1,0 +1,8 @@
+1. Buka link: https://cloud.shiftr.io/
+2. Masukan Nama group (bebas)
+3. Tekan 'DEPLOY INSTANCE'
+4. Isi pilihan paket, nama instance dan nama domain yang ingin digunakan
+5. Lalu tekan 'Deploy Instance'
+6. Untuk membuka configurasinya, tekan URL (namaInstance.cloud.shiftr.io)
+7. Jika ada request untuk sign in, tekan Allow Request.
+8. Tekan Get Started, dan Server Broker Private kita adalah (kelasiot76.cloud.shiftr.io)

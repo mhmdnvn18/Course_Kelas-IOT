@@ -1,0 +1,20 @@
+1. Buka website Private Broker https://kelasiot76.cloud.shiftr.io/
+2. Bukan wbsite MQTT (https://mqttx.app/web-client#/).
+3. Click New Connection.
+4. Isi konfigurasinya
+   	a. Name: Bebas diisi apa saja.
+	b. Client ID: Diisi random dan tidak boleh ada yang sama.
+	c. Host: Isi alamat brokernya (Shiftr.Io: kelasiot76.cloud.shiftr.io).
+	d. Host: Jiak mengguanakan aplikasi dekstop pilih MQTT, jika menggunakan Website	   pilih WS/WSS (WebSocket/WebSocketSecure).
+	e. Isi Port: Isi sesuai broker yang dipilih (EMQX: WSS, 8084, Shifter.i: 1883, https://www.shiftr.io/docs/broker/mqtt-interface).
+	f. Khusus Configurasi Web, isi path sesuai brokernya (MQTTX: /mqtt)
+	g. Username dan Password mengikuti konfigurasi brokernya (Username: kelasiot76, pass: JVxbR1CjvQJbblrJ)
+	h. Bagian konfigurasi 'Advance' dibiarkan saja sesuai default.
+5. Tekan 'Connect', dan jika sudah 'Connected' artinya MQTT kita sudah tehubung ke Broker
+
+6. Untuk melakukan Publish Data, Pilih 'Plaintext', lalu pilih 'QoS' sesuaikan dengan yang dibutuhkan, Retain Message digunakan untuk menyimpan data trakhir dibroker yang akan dikirimkan kembali ketika reconnect atau ada perangkat baru yang terhubung.
+
+7. Untuk melakukan Subscribe, tekan New Subscription lalu ketikan Topic yang ingin di subscribe
+
+
+mqtt://kelasiot76:JVxbR1CjvQJbblrJ@kelasiot76.cloud.shiftr.io

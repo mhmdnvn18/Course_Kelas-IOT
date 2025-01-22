@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+        <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    </head>
+    <body>
+        <h1>Selamat Datang di Website Internet of Things</h1>
+        <p>Ini adalah website pertama saya</p>
+        <label>
+            <h3>Status: <b id="status" style="color: red;"> Terputus ke Broker</b></h3>
+        </label>
+        <label>
+            <h3>DHT22</h3>
+            <p>Suhu: 32C</p>
+            <p>Kelembaban: 80%</p>
+        </label>
+        <label>    
+            <h3>LAMPU</h3>
+            <button>Nyala</button>
+            <button>Mati</button>
+        </label>
+    </body>
+
+    <script>
+        const clientId = "Bebasaja";
+        const host = "wss://kelasiot76.cloud.shiftr.io:443";        // const host = "wss://broker mqtt:port";   
+        const options = {
+            keepalive: 60,                  //untuk melakukan ping ke broker setiap 60 detik
+            clientId: clientId,             //id client yang terhubung ke broker
+            username: "kelasiot76",         //username broker
+            password: "JVxbR1CjvQJbblrJ",   //password broker
+            protocolId: "MQTT",             //protokol MQTT
+            protocolVersion: 4,             //versi protokol MQTT
+            clean: false,                   //clean session
+            reconnectPeriod: 1000,          //waktu untuk melakukan reconnect ke broker
+            connectTimeout: 30 * 1000,      //waktu untuk melakukan koneksi ke broker            
+        };
+
+        console.log("Menghubungkan ke broker");         //menampilkan pesan di console
+        const client = mqtt.connect(host, options);     //menghubungkan ke broker
+
+        client.on("connect", () => {
+            console.log("Terhubung ke broker. Clientid: " + clientId);              //menampilkan pesan di console web
+        });
+        //menampilkan pesan di console ketika terhubung ke broker
+    </script>
+</html>

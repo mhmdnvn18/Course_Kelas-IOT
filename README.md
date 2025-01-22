@@ -3,8 +3,7 @@
 72. Publish data hanya jika ada perubahan nilai https://wokwi.com/projects/419962568402282497
 73. Publish data suhu kelembabapn dengan retain https://wokwi.com/projects/419963398096521217
 74. Mengatur LastWILL untuk status Online atau Offline https://wokwi.com/projects/419968688532378625
-
-
+79. Menghubungkan ESP32 e Private Broker https://wokwi.com/projects/420463073276545025
 
 # ✔️ Road to Becoming an IoT Developer by Kelas-IoT
 

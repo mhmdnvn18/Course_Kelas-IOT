@@ -92,7 +92,6 @@
 - [Kelas IoT - 73] Publish Data Suhu dan Kelembaban dengan Retain: [Wokwi](https://wokwi.com/projects/419963398096521217)
 - [Kelas IoT - 74] Mengatur LastWill untuk Status Online atau Offline: [Wokwi](https://wokwi.com/projects/419968688532378625)
 - [Kelas IoT - 79] Menghubungkan ESP32 ke Private Broker: [Wokwi](https://wokwi.com/projects/420463073276545025)
----
 
 # 📚 Library yang Digunakan  
 
@@ -115,8 +114,6 @@
 5. **MQTT.js**
    [Repository](https://github.com/mqttjs)
    Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT.
-
----
 
 # 📌 Tips dan Catatan Penting  
 

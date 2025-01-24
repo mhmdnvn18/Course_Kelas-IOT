@@ -53,17 +53,13 @@
 - [Membuat Fungsi Reconnect MQTT](https://wokwi.com/projects/419894575274716161)  
 - [Mengendalikan LED menggunakan MQTT](https://wokwi.com/projects/419899162970266625)  
 
----
-
-## 📌 Advanced IoT Projects  
-
 ### Publikasi Data  
-70. [Melakukan Publish Data](https://wokwi.com/projects/419923559150619649)  
-71. [Publish Data Potensiometer](https://wokwi.com/projects/419961018911862785)  
-72. [Publish Data hanya jika ada Perubahan Nilai](https://wokwi.com/projects/419962568402282497)  
-73. [Publish Data Suhu dan Kelembaban dengan Retain](https://wokwi.com/projects/419963398096521217)  
-74. [Mengatur LastWill untuk Status Online atau Offline](https://wokwi.com/projects/419968688532378625)  
-79. [Menghubungkan ESP32 ke Private Broker](https://wokwi.com/projects/420463073276545025)  
+- [Melakukan Publish Data](https://wokwi.com/projects/419923559150619649)  
+- [Publish Data Potensiometer](https://wokwi.com/projects/419961018911862785)  
+- [Publish Data hanya jika ada Perubahan Nilai](https://wokwi.com/projects/419962568402282497)  
+- [Publish Data Suhu dan Kelembaban dengan Retain](https://wokwi.com/projects/419963398096521217)  
+- [Mengatur LastWill untuk Status Online atau Offline](https://wokwi.com/projects/419968688532378625)  
+- [Menghubungkan ESP32 ke Private Broker](https://wokwi.com/projects/420463073276545025)  
 
 ---
 
@@ -84,6 +80,9 @@
 4. **Nusabot Simple Timer**  
    [Repository](https://github.com/nusabot-iot/NusabotSimpleTimer)  
    Digunakan untuk eksekusi fungsi secara periodik tanpa menggunakan `delay`.  
+5. **MQTT.js**
+   [Repository](https://github.com/mqttjs)
+   Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT
 
 ---
 

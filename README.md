@@ -19,47 +19,95 @@
 
 ---
 
-## 📘 Simulation Examples  
+# Kelas IoT - Daftar Materi Pembelajaran
 
-### Dasar-Dasar Pemrograman  
-- [LED Blink](https://wokwi.com/projects/419641623892913153)  
-- [LED Lampu Lalu Lintas](https://wokwi.com/projects/419641824616586241)  
-- [Komentar](https://wokwi.com/projects/419642631528391681)  
-- [Tipe Data dan Variabel](https://wokwi.com/projects/419641824616586241)  
-- [Membuat Variabel](https://wokwi.com/projects/419643856768534529)  
+## **1. Pengenalan Dasar**
+- [Kelas IoT - 15] Komentar
+- [Kelas IoT - 16] Tipe Data dan Variabel
+- [Kelas IoT - 17] Membuat Variabel
+- [Kelas IoT - 18] Komunikasi Serial
+- [Kelas IoT - 19] Menampilkan Nilai Variabel
+- [Kelas IoT - 20] Cara Memasukan Nilai ke Variabel
+- [Kelas IoT - 21] Variabel Lokal dan Global
+- [Kelas IoT - 22] Operator Aritmatika
 
-### Komunikasi Serial  
-- [Komunikasi Serial](https://wokwi.com/projects/419645667062704129)  
-- [Menampilkan Nilai Variabel](https://wokwi.com/projects/419646239809627137)  
-- [Cara Memasukkan Nilai ke Variabel](https://wokwi.com/projects/419647160008498177)  
+---
 
-### Kendali Perangkat  
-- [RGB LED](https://wokwi.com/projects/419694921024312321)  
-- [Function pada RGB LED](https://wokwi.com/projects/419695922644152321)  
-- [Menggunakan Servo](https://wokwi.com/projects/419697464486228993)  
-- [Menggunakan Buzzer](https://wokwi.com/projects/419704443953759233)  
-- [Menggunakan LCD I2C](https://wokwi.com/projects/419705552639491073)  
+## **2. Pengkondisian dan Perulangan**
+- [Kelas IoT - 23] Pengkondisian If
+- [Kelas IoT - 24] Increment dan Decrement
+- [Kelas IoT - 25] Perulangan While
+- [Kelas IoT - 26] Perulangan Do While
+- [Kelas IoT - 27] Perulangan For
 
-### Sensor dan Aktuator  
-- [Membaca Nilai Potensiometer](https://wokwi.com/projects/419734492265646081)  
-- [Membaca Nilai Push Button](https://wokwi.com/projects/419738318100211713)  
-- [Membaca Nilai LDR](https://wokwi.com/projects/419784339881591809)  
-- [Membaca Suhu dan Kelembaban dengan DHT22](https://wokwi.com/projects/419785486708196353)  
+---
 
-### IoT dan MQTT  
-- [Menghubungkan ESP32 ke WiFi](https://wokwi.com/projects/419886634230360065)  
-- [Menampilkan Indikator WiFi ke RGB LED](https://wokwi.com/projects/419890088780254209)  
-- [Menghubungkan ESP32 ke Broker MQTT](https://wokwi.com/projects/419892393814839297)  
-- [Membuat Fungsi Reconnect MQTT](https://wokwi.com/projects/419894575274716161)  
-- [Mengendalikan LED menggunakan MQTT](https://wokwi.com/projects/419899162970266625)  
+## **3. Fungsi dan Prosedur**
+- [Kelas IoT - 28] Membuat Fungsi dan Prosedur
+- [Kelas IoT - 29] Argument Pada Fungsi
+- [Kelas IoT - 30] Membuat Prosedur
+- [Kelas IoT - 31] Menggunakan Include
 
-### Publikasi Data  
-- [Melakukan Publish Data](https://wokwi.com/projects/419923559150619649)  
-- [Publish Data Potensiometer](https://wokwi.com/projects/419961018911862785)  
-- [Publish Data hanya jika ada Perubahan Nilai](https://wokwi.com/projects/419962568402282497)  
-- [Publish Data Suhu dan Kelembaban dengan Retain](https://wokwi.com/projects/419963398096521217)  
-- [Mengatur LastWill untuk Status Online atau Offline](https://wokwi.com/projects/419968688532378625)  
-- [Menghubungkan ESP32 ke Private Broker](https://wokwi.com/projects/420463073276545025)  
+---
+
+## **4. Komponen Elektronik**
+### **4.1 LED dan Button**
+- [Kelas IoT - 13] LED Berkedip
+- [Kelas IoT - 14] Lampu Lalu Lintas
+- [Kelas IoT - 43] Membaca Nilai Push Button
+- [Kelas IoT - 44] Menyalakan LED dengan Push Button
+- [Kelas IoT - 45] Membuat Push Button sebagai Switch
+- [Kelas IoT - 42] Mengendalikan LED Berdasarkan Nilai Potensiometer
+
+### **4.2 Potensiometer**
+- [Kelas IoT - 39] Menggunakan Potensiometer
+- [Kelas IoT - 40] Menampilkan Nilai Potensiometer ke LCD
+- [Kelas IoT - 41] Mengubah Nilai Potensiometer Menjadi Persen
+
+### **4.3 LDR dan Sensor**
+- [Kelas IoT - 46] Membaca Nilai LDR
+- [Kelas IoT - 47] Membuat Lampu Otomatis Berdasarkan Kondisi Cahaya
+
+### **4.4 Servo dan Buzzer**
+- [Kelas IoT - 34] Menggunakan Servo
+- [Kelas IoT - 35] Menggunakan Servo Lebih dari Satu
+- [Kelas IoT - 36] Menggunakan Buzzer
+
+### **4.5 LCD**
+- [Kelas IoT - 37] Menggunakan LCD I2C
+- [Kelas IoT - 38] Menggunakan Lebih dari Satu LCD I2C
+
+---
+
+## **5. Sensor dan Data**
+- [Kelas IoT - 48] Membaca Suhu dan Kelembaban Ruangan dengan DHT22
+- [Kelas IoT - 49] Menampilkan Suhu dan Kelembaban ke LCD
+
+---
+
+## **6. MQTT**
+- [Kelas IoT - 61] Menghubungkan ESP32 ke WiFi
+- [Kelas IoT - 62] Menampilkan Indikator WiFi ke LCD
+- [Kelas IoT - 63] Menampilkan Indikator WiFI ke LCD
+- [Kelas IoT - 64] Menghubungkan ESP32 ke Broker MQTT
+- [Kelas IoT - 65] Membuat Fungsi Reconnect
+- [Kelas IoT - 66] Melakukan Subscribe
+- [Kelas IoT - 67] Mengendalikan LED Menggunakan MQTT
+- [Kelas IoT - 68] Mengendalikan Servo dengan MQTT
+- [Kelas IoT - 69] Menggunakan Library NusabotSimpleTimer
+- [Kelas IoT - 70] Melakukan Publish Data
+- [Kelas IoT - 71] Publish Data Potensiometer
+- [Kelas IoT - 72] Publish Data Hanya Jika Ada Perubahan Nilai Sensor
+- [Kelas IoT - 73] Publish Data Suhu dan Kelembaban dengan Retain
+- [Kelas IoT - 74] Mengatur LastWill untuk Status Online atau Offline
+- [Kelas IoT - 79] Menghubungkan ESP32 ke Private Broker
+
+---
+
+## **7. RGB dan Fungsi Tambahan**
+- [Kelas IoT - 32] RGB LED
+- [Kelas IoT - 33] Function pada RGB LED
+
 
 ---
 

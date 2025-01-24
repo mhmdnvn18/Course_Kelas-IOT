@@ -232,8 +232,6 @@ Gunakan library [Nusabot Simple Timer](https://github.com/nusabot-iot/NusabotSim
 
 **HTTP** (HyperText Transfer Protocol) adalah protokol komunikasi yang digunakan untuk mengirimkan data antara klien (seperti browser) dan server web. Protokol ini merupakan dasar dari WWW (World Wide Web) dan digunakan untuk mentransfer berbagai jenis data, seperti dokumen HTML, gambar, video, dan JSON.
 
----
-
 ### **Bagaimana HTTP Bekerja?**
 1. **Klien Membuat Permintaan (Request):**
    - Klien mengirimkan permintaan HTTP ke server menggunakan metode seperti `GET`, `POST`, `PUT`, atau `DELETE`.
@@ -246,8 +244,6 @@ Gunakan library [Nusabot Simple Timer](https://github.com/nusabot-iot/NusabotSim
 3. **Koneksi Stateless:**
    - HTTP bersifat stateless, artinya setiap permintaan tidak bergantung pada permintaan sebelumnya.
 
----
-
 ### **Metode HTTP Utama**
 1. **GET:**
    - Digunakan untuk meminta data dari server.
@@ -259,8 +255,6 @@ Gunakan library [Nusabot Simple Timer](https://github.com/nusabot-iot/NusabotSim
    - Digunakan untuk memperbarui data di server.
 4. **DELETE:**
    - Digunakan untuk menghapus data di server.
-
----
 
 ### **HTTP untuk IoT**
 HTTP sering digunakan dalam proyek IoT untuk komunikasi antara perangkat IoT (seperti ESP32) dan server web.
@@ -396,8 +390,6 @@ Database adalah kumpulan data yang terorganisir dan disimpan secara sistematis s
 ### **Keunggulan phpMyAdmin**
 phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database lebih sederhana tanpa harus menggunakan command-line. Hal ini menjadikannya pilihan tepat untuk mendukung proyek IoT yang memerlukan akses data real-time dengan pengaturan yang fleksibel.
 
----
-
 ## 📋 Apache HTTP Server
 **Apache HTTP Server** atau sering dikenal sebagai **Apache**, adalah perangkat lunak server web open-source yang andal untuk meng-host situs web dan aplikasi berbasis IoT. Dikembangkan oleh **Apache Software Foundation**, Apache mendukung berbagai bahasa pemrograman dan dapat dioperasikan di banyak sistem operasi.
 
@@ -446,6 +438,7 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 2. **LEMP**: Linux, Nginx (Engine-X), MySQL, PHP.
 3. **WAMP**: Windows, Apache, MySQL, PHP.
 4. **XAMPP**: Cross-Platform, Apache, MariaDB, PHP, Perl.
+5. **Laragon**: Windows, Apache/Nginx, MySQL/MariaDB, PHP, Node.js.
 
 ## 🎯 Tugas Utama Web Server Stack
 1. **Mengelola HTTP Request**: Melayani permintaan pengguna, seperti mengirim file HTML, JSON, atau data lainnya.
@@ -465,6 +458,7 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 - **LEMP**: Linux, Nginx, MySQL, PHP.
 - **XAMPP**: Cross-Platform, Apache, MariaDB, PHP, Perl.
 - **WAMP**: Windows, Apache, MySQL, PHP.
+- **Laragon**: Windows, Apache/Nginx, MySQL/MariaDB, PHP, Node.js.
 
 ### Cloud & Serverless Stack
 - **Serverless Framework**: AWS Lambda, DynamoDB, S3.
@@ -478,14 +472,6 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 - 
 -
 -
-
-
-
-
-
-
-
-
 
 ## Laragon
 **Laragon** adalah platform pengembangan lokal yang ringan, cepat, dan dirancang untuk memudahkan pengembangan proyek berbasis web. Dengan dukungan berbagai server dan bahasa pemrograman, Laragon menjadi solusi ideal untuk membangun, mengelola, dan menguji aplikasi secara lokal sebelum di-deploy ke server produksi.

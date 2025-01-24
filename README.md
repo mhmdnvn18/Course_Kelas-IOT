@@ -205,7 +205,7 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 
 ---
 
-## 📋 Laragon
+# 📋 Laragon
 **Laragon** adalah platform pengembangan lokal yang ringan, cepat, dan dirancang untuk memudahkan pengembangan proyek berbasis web. Dengan dukungan berbagai server dan bahasa pemrograman, Laragon menjadi solusi ideal untuk membangun, mengelola, dan menguji aplikasi secara lokal sebelum di-deploy ke server produksi.
 
 ### **Fitur Utama Laragon**

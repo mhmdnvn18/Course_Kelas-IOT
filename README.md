@@ -493,10 +493,172 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 
 Dengan **Laragon**, proyek berbasis IoT dapat dikembangkan dengan mudah, mulai dari pengelolaan database hingga pengujian antarmuka web, tanpa perlu konfigurasi yang rumit.
 
-### **SUMBER**
-- 
--
--
+---
+
+## 🖥️ Cara Menggunakan Laragon
+
+### 1. Buat Folder di Laragon
+- Buka folder `C:\laragon\www\`.
+- Buat folder baru dan beri nama sesuai keinginan.
+- Di dalam folder tersebut, buat dokumen teks (untuk digunakan nantinya).
+
+### 2. Jalankan Laragon
+- Jalankan Laragon menggunakan opsi **Run as Administrator** agar memiliki akses penuh.
+
+### 3. Install phpMyAdmin
+- Klik **Menu** > **Tools** > **Quick Add**, lalu pilih **phpMyAdmin**.
+- Tunggu hingga proses instalasi selesai.
+
+### 4. Akses phpMyAdmin melalui Browser
+- Buka web browser dan ketikkan URL berikut: http://localhost/phpmyadmin/
+- Masukkan informasi login berikut:
+- **Username**: `root`
+- **Password**: (kosongkan).
+
+## Konfigurasi Database Menggunakan CLI
+
+### 1. Salin Lokasi File MySQL
+Salin lokasi file `mysql.exe` di Laragon. Lokasinya berada di: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin
+
+### 2. Akses MySQL melalui PowerShell
+1. Buka **PowerShell**, kemudian ubah lokasi direktori ke folder MySQL dengan perintah:
+   ```bash
+   cd C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin
+   ```
+   Tekan Enter.
+
+2. Setelah masuk ke folder bin, ketikkan perintah berikut untuk menampilkan daftar file:
+   ```bash
+   dir
+   ```
+   Tekan Enter.
+
+3. Jalankan MySQL dengan perintah:
+   ```bash
+   mysql.exe -u "root"
+   ```
+   Tekan Enter.
+
+4. Jika berhasil, prompt akan berubah menjadi seperti berikut:
+   ```bash
+   mysql>
+   ```
+
+### **PERINTAH SQL**
+
+### **1. CRUD (Create, Read, Update, Delete)**
+
+- **Create**: Menambah data baru ke dalam database.
+  - **`INSERT INTO`** digunakan untuk menambahkan data.
+  - Contoh:  
+  ```sql
+  INSERT INTO users (name, email) VALUES ('John Doe', 'john@example.com');
+  ```
+
+- **Read**: Membaca data dari database.
+  - **`SELECT`** digunakan untuk membaca atau menampilkan data.
+  - Contoh:  
+  ```sql
+  SELECT * FROM users;
+  ```
+  Anda bisa menambahkan klausa `WHERE` untuk menyaring data, seperti:
+  ```sql
+  SELECT * FROM users WHERE email = 'john@example.com';
+  ```
+
+- **Update**: Memperbarui data yang sudah ada di database.
+  - **`UPDATE`** digunakan untuk mengubah data.
+  - Contoh:  
+  ```sql
+  UPDATE users SET name = 'Jane Doe' WHERE id = 1;
+  ```
+
+- **Delete**: Menghapus data dari database.
+  - **`DELETE`** digunakan untuk menghapus data.
+  - Contoh:  
+  ```sql
+  DELETE FROM users WHERE id = 1;
+  ```
+
+### **2. Perintah SQL Lainnya**
+
+1. **`SHOW DATABASES;`**  
+   Menampilkan daftar semua database yang tersedia di server MySQL.
+
+2. **`CREATE DATABASE nama_database;`**  
+   Membuat database baru dengan nama yang diinginkan.  
+   Contoh:  
+   ```sql
+   CREATE DATABASE contoh_database;
+   ```
+
+3. **`USE nama_database;`**  
+   Memilih database tertentu untuk mulai digunakan.  
+   Contoh:  
+   ```sql
+   USE contoh_database;
+   ```
+
+4. **`SHOW TABLES;`**  
+   Menampilkan semua tabel yang ada di dalam database yang sedang aktif.
+
+5. **`CREATE TABLE nama_tabel (kolom1 tipe_data, kolom2 tipe_data, ...);`**  
+   Membuat tabel baru dengan kolom dan tipe data yang ditentukan.  
+   Contoh:  
+   ```sql
+   CREATE TABLE users (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       name VARCHAR(50),
+       email VARCHAR(100)
+   );
+   ```
+
+6. **`DESCRIBE nama_tabel;`**  
+   Menampilkan struktur tabel, termasuk kolom, tipe data, dan atribut lainnya.  
+   Contoh:  
+   ```sql
+   DESCRIBE users;
+   ```
+
+7. **`DROP TABLE nama_tabel;`**  
+   Menghapus tabel beserta seluruh datanya dari database.  
+   Contoh:  
+   ```sql
+   DROP TABLE users;
+   ```
+
+8. **`DROP DATABASE nama_database;`**  
+   Menghapus database beserta semua tabel dan datanya.  
+   Contoh:  
+   ```sql
+   DROP DATABASE contoh_database;
+   ```
+
+9. **`ALTER TABLE nama_tabel ADD kolom_baru tipe_data;`**  
+   Menambahkan kolom baru ke dalam tabel yang sudah ada.  
+   Contoh:  
+   ```sql
+   ALTER TABLE users ADD age INT;
+   ```
+
+10. **`ALTER TABLE nama_tabel DROP kolom;`**  
+    Menghapus kolom tertentu dari tabel.  
+    Contoh:  
+    ```sql
+    ALTER TABLE users DROP age;
+    ```
+
+11. **`TRUNCATE TABLE nama_tabel;`**  
+    Menghapus semua data dalam tabel, tetapi struktur tabel tetap ada.  
+    Contoh:  
+    ```sql
+    TRUNCATE TABLE users;
+    ```
+
+## **Catatan**
+- Semua perintah SQL harus diakhiri dengan tanda titik koma (`;`).
+- Gunakan perintah dengan hati-hati, terutama untuk `DROP` dan `TRUNCATE`, karena data yang dihapus tidak dapat dikembalikan.
+
 
 ---
 > 💡 **Referensi Tambahan:**  

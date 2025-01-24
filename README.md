@@ -284,6 +284,61 @@ HTTP sering digunakan dalam proyek IoT untuk komunikasi antara perangkat IoT (se
 -
 -
 
+## 📋 Web Server
+
+**Web Server** adalah perangkat lunak atau perangkat keras yang bertugas menerima permintaan (request) dari klien melalui protokol HTTP atau HTTPS dan memberikan respon (response) berupa halaman web, file, atau data lainnya. Web server adalah inti dari setiap aplikasi web, memungkinkan klien seperti browser untuk berinteraksi dengan konten dan layanan yang disediakan.
+
+### **Cara Kerja Web Server**
+1. **Permintaan dari Klien:**
+   - Klien (biasanya browser) mengirimkan HTTP/HTTPS request ke web server.
+   - Contoh: `GET /index.html HTTP/1.1`.
+
+2. **Pemrosesan oleh Server:**
+   - Server mencari konten yang diminta, baik berupa file statis (seperti HTML, CSS) atau data dinamis (diolah melalui script PHP, Node.js, dll.).
+
+3. **Respon ke Klien:**
+   - Server mengirimkan HTTP response berisi konten yang diminta, termasuk kode status (seperti `200 OK` atau `404 Not Found`).
+
+### **Fungsi Utama Web Server**
+- **Menghosting Halaman Web:** Menyajikan file HTML, CSS, dan JavaScript ke browser pengguna.
+- **Menyediakan API:** Mengelola data dan memberikan respon dalam format seperti JSON untuk aplikasi IoT.
+- **Keamanan:** Mendukung protokol HTTPS untuk mengenkripsi komunikasi.
+- **Logging dan Monitoring:** Mencatat aktivitas klien untuk analisis.
+
+## 📋Contoh-Contoh Web Server
+
+Berikut adalah beberapa **web server** yang sering digunakan untuk meng-host situs web:
+
+### 1. Apache HTTP Server
+- **Deskripsi**: Salah satu server web paling populer dan banyak digunakan di dunia. Apache mendukung berbagai modul yang memungkinkan pengguna untuk menambahkan fungsionalitas, seperti mendukung PHP, SSL, dan pengaturan keamanan.
+- **Kelebihan**: Stabil, fleksibel, mendukung berbagai platform (Linux, Windows, macOS).
+- **Kekurangan**: Konfigurasi bisa lebih kompleks dibandingkan dengan server web lain.
+
+### 2. Nginx
+- **Deskripsi**: Nginx adalah server web open-source yang dikenal dengan kemampuannya dalam menangani banyak koneksi secara bersamaan dengan efisien. Nginx sering digunakan sebagai server proxy terbalik (reverse proxy) atau load balancer.
+- **Kelebihan**: Cepat, ringan, efisien dalam menangani banyak koneksi secara bersamaan.
+- **Kekurangan**: Konfigurasi dan penggunaan untuk fitur dinamis bisa sedikit lebih rumit dibandingkan Apache.
+
+### 3. Caddy
+- **Deskripsi**: Web server open-source yang mudah digunakan dan mendukung HTTPS secara otomatis tanpa konfigurasi tambahan. Caddy cocok untuk pengguna yang menginginkan setup cepat dan aman.
+- **Kelebihan**: Konfigurasi otomatis SSL, mudah digunakan, mendukung HTTP/2 dan HTTP/3.
+- **Kekurangan**: Fitur-fitur lanjutan mungkin lebih terbatas dibandingkan Apache atau Nginx.
+
+### 4. Lighttpd
+- **Deskripsi**: Server web ringan yang dirancang untuk menangani situs dengan trafik tinggi secara efisien. Lighttpd mendukung FastCGI, SSL, dan mod_rewrite.
+- **Kelebihan**: Ringan, cepat, dan efisien dalam penggunaan sumber daya.
+- **Kekurangan**: Dukungan komunitas yang lebih kecil dibandingkan dengan Apache atau Nginx.
+
+### 5. Node.js (Web Server)
+- **Deskripsi**: Meskipun Node.js lebih dikenal sebagai runtime JavaScript, ia juga dapat digunakan sebagai server web melalui library seperti Express.js.
+- **Kelebihan**: Cocok untuk aplikasi web real-time, menggunakan JavaScript, yang sudah sangat populer.
+- **Kekurangan**: Tidak dirancang khusus sebagai server web, membutuhkan setup yang lebih kompleks untuk menangani beban tinggi.
+
+### **SUMBER**
+- 
+-
+-
+
 ---
 
 # 📋 Database  
@@ -291,7 +346,7 @@ HTTP sering digunakan dalam proyek IoT untuk komunikasi antara perangkat IoT (se
 ## Apa itu Database?  
 Database adalah kumpulan data yang terorganisir dan disimpan secara sistematis sehingga dapat dengan mudah diakses, dikelola, dan diperbarui. Dalam konteks pengembangan IoT, database digunakan untuk menyimpan data dari perangkat IoT secara real-time, sehingga data tersebut dapat digunakan untuk analisis, visualisasi, atau pengambilan keputusan.
 
-## Kategori Database:  
+### Kategori Database:  
 1. **SQL (Structured Query Language):**  
    - SQL adalah bahasa yang digunakan untuk manajemen database relasional, di mana data disimpan dalam tabel dengan hubungan yang terdefinisi. SQL cocok untuk data yang terstruktur dan membutuhkan integritas data yang tinggi.  
    - **Keunggulan:**  
@@ -315,7 +370,7 @@ Database adalah kumpulan data yang terorganisir dan disimpan secara sistematis s
      - **Firebase:** Database NoSQL berbasis cloud untuk aplikasi real-time, sering digunakan di aplikasi mobile dan IoT.  
      - **MongoDB:** Database berbasis dokumen yang fleksibel dan sangat populer untuk pengembangan aplikasi modern.  
 
-## Perbedaan SQL dan NoSQL:  
+### Perbedaan SQL dan NoSQL:  
 
 | **Fitur**              | **SQL**                           | **NoSQL**                         |  
 |------------------------|-----------------------------------|-----------------------------------|  
@@ -365,6 +420,8 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 -
 
 ---
+
+XAMPP/WAMPP
 
 # 📋 Laragon
 **Laragon** adalah platform pengembangan lokal yang ringan, cepat, dan dirancang untuk memudahkan pengembangan proyek berbasis web. Dengan dukungan berbagai server dan bahasa pemrograman, Laragon menjadi solusi ideal untuk membangun, mengelola, dan menguji aplikasi secara lokal sebelum di-deploy ke server produksi.

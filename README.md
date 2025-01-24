@@ -94,7 +94,7 @@
 - [Kelas IoT - 79] Menghubungkan ESP32 ke Private Broker: [Wokwi](https://wokwi.com/projects/420463073276545025)
 ---
 
-## 📚 Library yang Digunakan  
+# 📚 Library yang Digunakan  
 
 1. **Arduino MQTT**  
    [Repository](https://github.com/256dpi/arduino-mqtt)  
@@ -117,9 +117,9 @@
 
 ---
 
-## 📌 Tips dan Catatan Penting  
+# 📌 Tips dan Catatan Penting  
 
-### Library **Nusabot Simple Timer**  
+## Library **Nusabot Simple Timer**  
 - **Fungsi:** Mengeksekusi fungsi secara berkala tanpa menggunakan `delay`. Berguna untuk proses seperti publish data secara terjadwal.  
 - **Keunggulan:**  
   - Menghindari penggunaan `delay` yang dapat menyebabkan freeze pada ESP32.  
@@ -134,12 +134,12 @@ Gunakan library [Nusabot Simple Timer](https://github.com/nusabot-iot/NusabotSim
 
 ---
 
-## 📋 Database  
+# 📋 Database  
 
-### Apa itu Database?  
+## Apa itu Database?  
 Database adalah kumpulan data yang terorganisir dan disimpan secara sistematis sehingga dapat dengan mudah diakses, dikelola, dan diperbarui. Dalam konteks pengembangan IoT, database digunakan untuk menyimpan data dari perangkat IoT secara real-time, sehingga data tersebut dapat digunakan untuk analisis, visualisasi, atau pengambilan keputusan.
 
-### Kategori Database:  
+## Kategori Database:  
 
 1. **SQL (Structured Query Language):**  
    - SQL adalah bahasa yang digunakan untuk manajemen database relasional, di mana data disimpan dalam tabel dengan hubungan yang terdefinisi. SQL cocok untuk data yang terstruktur dan membutuhkan integritas data yang tinggi.  
@@ -164,7 +164,8 @@ Database adalah kumpulan data yang terorganisir dan disimpan secara sistematis s
      - **Firebase:** Database NoSQL berbasis cloud untuk aplikasi real-time, sering digunakan di aplikasi mobile dan IoT.  
      - **MongoDB:** Database berbasis dokumen yang fleksibel dan sangat populer untuk pengembangan aplikasi modern.  
 
-### Perbedaan SQL dan NoSQL:  
+
+## Perbedaan SQL dan NoSQL:  
 
 | **Fitur**              | **SQL**                           | **NoSQL**                         |  
 |------------------------|-----------------------------------|-----------------------------------|  

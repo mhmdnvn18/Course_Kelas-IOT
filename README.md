@@ -32,16 +32,12 @@
 - [Kelas IoT - 21] Variabel Lokal dan Global: [Wokwi](https://wokwi.com/projects/419647688959538177)
 - [Kelas IoT - 22] Operator Aritmatika: [Wokwi](https://wokwi.com/projects/419650232364606465)
 
----
-
 ## **2. Pengkondisian dan Perulangan**
 - [Kelas IoT - 23] Pengkondisian If: [Wokwi](https://wokwi.com/projects/419650786391297025)
 - [Kelas IoT - 24] Increment dan Decrement: [Wokwi](https://wokwi.com/projects/419652145334370305)
 - [Kelas IoT - 25] Perulangan While: [Wokwi](https://wokwi.com/projects/419652433756758017)
 - [Kelas IoT - 26] Perulangan Do While: [Wokwi](https://wokwi.com/projects/419653063528414209)
 - [Kelas IoT - 27] Perulangan For: [Wokwi](https://wokwi.com/projects/419653360048954369)
-
----
 
 ## **3. Fungsi dan Prosedur**
 - [Kelas IoT - 28] Membuat Fungsi dan Prosedur: [Wokwi](https://wokwi.com/projects/419684348956709889)
@@ -50,8 +46,6 @@
 - [Kelas IoT - 31] Menggunakan Include: [Wokwi](https://wokwi.com/projects/419688664583622657)
 - [Kelas IoT - 32] RGB LED: [Wokwi](https://wokwi.com/projects/419694921024312321)
 - [Kelas IoT - 33] Function pada RGB LED: [Wokwi](https://wokwi.com/projects/419695922644152321)
-
----
 
 ## **4. Komponen Elektronik**
 ### **4.1 Servo dan Buzzer**
@@ -78,13 +72,9 @@
 - [Kelas IoT - 46] Membaca Nilai LDR: [Wokwi](https://wokwi.com/projects/419784339881591809)
 - [Kelas IoT - 47] Membuat Lampu Otomatis Berdasarkan Kondisi Cahaya: [Wokwi](https://wokwi.com/projects/419785204957895681)
 
----
-
 ## **5. Sensor dan Data**
 - [Kelas IoT - 48] Membaca Suhu dan Kelembaban Ruangan dengan DHT22: [Wokwi](https://wokwi.com/projects/419785486708196353)
 - [Kelas IoT - 49] Menampilkan Suhu dan Kelembaban ke LCD: [Wokwi](https://wokwi.com/projects/419786110856330241)
-
----
 
 ## **6. MQTT**
 - [Kelas IoT - 61] Menghubungkan ESP32 ke WiFi: [Wokwi](https://wokwi.com/projects/419886634230360065)
@@ -102,7 +92,6 @@
 - [Kelas IoT - 73] Publish Data Suhu dan Kelembaban dengan Retain: [Wokwi](https://wokwi.com/projects/419963398096521217)
 - [Kelas IoT - 74] Mengatur LastWill untuk Status Online atau Offline: [Wokwi](https://wokwi.com/projects/419968688532378625)
 - [Kelas IoT - 79] Menghubungkan ESP32 ke Private Broker: [Wokwi](https://wokwi.com/projects/420463073276545025)
-
 ---
 
 ## 📚 Library yang Digunakan  

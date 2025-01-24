@@ -132,6 +132,160 @@ Gunakan library [Nusabot Simple Timer](https://github.com/nusabot-iot/NusabotSim
 
 ---
 
+# 📌Protokol komunikasi pada Internet of Things 
+
+## 📋 MQTT (Message Queuing Telemetry Transport)
+**MQTT** adalah protokol komunikasi berbasis publish/subscribe yang ringan dan dirancang untuk perangkat dengan keterbatasan sumber daya. Protokol ini sangat populer dalam aplikasi IoT (Internet of Things) karena efisiensi dalam mentransfer data antar perangkat melalui jaringan yang tidak stabil sekalipun.
+
+### **Fitur Utama MQTT**
+1. **Protokol Ringan:** Menggunakan overhead data yang minimal sehingga cocok untuk perangkat dengan sumber daya terbatas.
+2. **Model Publish/Subscribe:** Mendukung komunikasi satu-ke-banyak tanpa koneksi langsung antara klien.
+3. **Keandalan:** Mendukung berbagai level Quality of Service (QoS) untuk menjamin pengiriman data.
+4. **Kompatibilitas:** Mendukung banyak bahasa pemrograman dan platform.
+5. **Persistensi Data:** Data dapat dipertahankan (retained messages) agar dapat diakses oleh klien baru yang bergabung.
+
+### **Komponen MQTT**
+1. **Broker:**
+   - Server pusat yang mengatur komunikasi antara klien.
+   - Contoh broker populer: Mosquitto, HiveMQ, EMQX.
+2. **Publisher:**
+   - Klien yang mengirim data (pesan) ke broker untuk disalurkan ke klien lain.
+3. **Subscriber:**
+   - Klien yang menerima data dari broker berdasarkan topik yang di-subscribe.
+4. **Topik:**
+   - Saluran komunikasi hierarkis untuk memisahkan jenis data. Contoh: `sensor/suhu`, `sensor/kelembaban`.
+
+### **Level QoS (Quality of Service)**
+1. **QoS 0 (At most once):**
+   - Pesan dikirim tanpa jaminan pengiriman ulang.
+2. **QoS 1 (At least once):**
+   - Pesan dijamin sampai tetapi dapat terkirim lebih dari satu kali.
+3. **QoS 2 (Exactly once):**
+   - Pesan dijamin sampai tepat satu kali dengan mekanisme handshake.
+
+### **Keunggulan MQTT dalam Proyek IoT**
+1. **Efisiensi Bandwidth:**
+   - Menggunakan overhead data yang sangat kecil, cocok untuk jaringan terbatas seperti 2G atau komunikasi satelit.
+2. **Real-Time Data:**
+   - Data dapat diterima klien secara instan setelah dikirimkan oleh publisher.
+3. **Keandalan:**
+   - Cocok untuk perangkat IoT seperti ESP32 yang membutuhkan komunikasi data stabil dengan server atau perangkat lain.
+4. **Kompatibilitas Multi-Platform:**
+   - MQTT mendukung perangkat dari berbagai platform, menjadikannya ideal untuk jaringan IoT yang kompleks.
+5. **Integrasi Mudah dengan Database:**
+   - Data dari MQTT dapat dengan mudah disimpan ke database seperti MySQL atau MongoDB untuk analisis lebih lanjut.
+
+### **SUMBER**
+- 
+-
+-
+
+## 📋 MQTT Broker
+**MQTT Broker** adalah komponen utama dalam arsitektur MQTT yang berfungsi sebagai perantara (hub) untuk mengelola komunikasi antara publisher dan subscriber. Broker bertanggung jawab menerima pesan dari publisher dan mendistribusikannya ke subscriber yang berlangganan pada topik yang sesuai.
+
+### **Fungsi MQTT Broker**
+1. **Pusat Komunikasi:**
+   - Semua perangkat IoT (publisher dan subscriber) terhubung ke broker.
+   - Broker mengatur pesan berdasarkan topik yang ditentukan.
+2. **Filter Pesan:**
+   - Broker hanya meneruskan pesan ke subscriber yang berlangganan topik tertentu.
+3. **Manajemen Kualitas Layanan (QoS):**
+   - Broker memastikan pesan dikirim sesuai dengan level QoS yang dipilih (QoS 0, 1, atau 2).
+4. **Keamanan:**
+   - Mendukung otentikasi pengguna dan enkripsi melalui SSL/TLS.
+
+### **Jenis-jenis MQTT Broker**
+1. **Local Broker:**
+   - Berjalan di perangkat lokal atau server untuk jaringan tertutup.
+   - Contoh: Mosquitto, EMQX.
+2. **Cloud Broker:**
+   - Broker berbasis cloud yang cocok untuk proyek dengan akses jarak jauh.
+   - Contoh: AWS IoT Core, HiveMQ Cloud, Google Cloud IoT Core.
+
+### **Broker MQTT Populer**
+#### **1. Mosquitto**
+   - Broker open-source yang ringan dan mudah digunakan.
+   - Mendukung autentikasi pengguna dan enkripsi TLS.
+   - Cocok untuk pengembangan lokal maupun produksi.
+
+#### **2. EMQX**
+   - Broker MQTT open-source yang mendukung skalabilitas tinggi.
+   - Dirancang untuk menangani ribuan hingga jutaan perangkat IoT.
+   - Menyediakan fitur seperti analitik data real-time.
+
+#### **3. HiveMQ**
+   - Broker MQTT komersial dengan performa tinggi.
+   - Dilengkapi fitur seperti integrasi dengan cloud dan analitik data.
+   - Cocok untuk IoT skala besar.
+
+#### **4. AWS IoT Core**
+   - Layanan cloud berbasis MQTT dari Amazon Web Services.
+   - Mendukung integrasi dengan berbagai layanan AWS seperti Lambda dan DynamoDB.
+   - Cocok untuk solusi IoT dengan akses global.
+
+### **SUMBER**
+- 
+-
+-
+
+## 📋 HTTP (HyperText Transfer Protocol)
+
+**HTTP** (HyperText Transfer Protocol) adalah protokol komunikasi yang digunakan untuk mengirimkan data antara klien (seperti browser) dan server web. Protokol ini merupakan dasar dari WWW (World Wide Web) dan digunakan untuk mentransfer berbagai jenis data, seperti dokumen HTML, gambar, video, dan JSON.
+
+---
+
+### **Bagaimana HTTP Bekerja?**
+1. **Klien Membuat Permintaan (Request):**
+   - Klien mengirimkan permintaan HTTP ke server menggunakan metode seperti `GET`, `POST`, `PUT`, atau `DELETE`.
+   - Contoh URL HTTP: `http://example.com/api/data`
+   
+2. **Server Merespons (Response):**
+   - Server memproses permintaan dan mengembalikan respons berupa kode status, header, dan konten.
+   - Contoh respons: `200 OK`, data JSON, atau halaman HTML.
+
+3. **Koneksi Stateless:**
+   - HTTP bersifat stateless, artinya setiap permintaan tidak bergantung pada permintaan sebelumnya.
+
+---
+
+### **Metode HTTP Utama**
+1. **GET:**
+   - Digunakan untuk meminta data dari server.
+   - Contoh: Mengambil data sensor IoT dalam format JSON.
+2. **POST:**
+   - Digunakan untuk mengirimkan data ke server.
+   - Contoh: Mengirimkan data sensor dari ESP32 ke server untuk disimpan.
+3. **PUT:**
+   - Digunakan untuk memperbarui data di server.
+4. **DELETE:**
+   - Digunakan untuk menghapus data di server.
+
+---
+
+### **HTTP untuk IoT**
+HTTP sering digunakan dalam proyek IoT untuk komunikasi antara perangkat IoT (seperti ESP32) dan server web.
+
+#### **Kelebihan HTTP untuk IoT:**
+1. **Mudah Dipahami:**
+   - HTTP didukung oleh sebagian besar bahasa pemrograman dan perangkat.
+2. **Integrasi yang Luas:**
+   - Dapat digunakan dengan API RESTful untuk menghubungkan perangkat IoT ke layanan cloud.
+3. **Format Data Fleksibel:**
+   - Mendukung format data seperti JSON, XML, dan HTML.
+
+#### **Kekurangan HTTP untuk IoT:**
+1. **Overhead yang Tinggi:**
+   - Dibandingkan dengan protokol seperti MQTT, HTTP memiliki overhead lebih besar karena header yang lebih panjang.
+2. **Koneksi Stateless:**
+   - Tidak ideal untuk komunikasi real-time dan terus-menerus.
+
+### **SUMBER**
+- 
+-
+-
+
+---
+
 # 📋 Database  
 
 ## Apa itu Database?  
@@ -170,6 +324,11 @@ Database adalah kumpulan data yang terorganisir dan disimpan secara sistematis s
 | **Kompleksitas Relasi** | Mendukung relasi kompleks         | Kurang cocok untuk relasi kompleks |  
 | **Cocok untuk**         | Data yang stabil dan relasional   | Data besar atau dinamis           |  
 
+### **SUMBER**
+- 
+-
+-
+
 ## 📋 phpMyAdmin
 **phpMyAdmin** adalah alat berbasis web yang digunakan untuk mengelola database MySQL atau MariaDB secara mudah dan efisien. Alat ini sangat berguna untuk proyek berbasis web dan IoT, seperti integrasi dengan ESP32 untuk menyimpan dan menampilkan data sensor secara real-time.
 
@@ -200,6 +359,11 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 - **Keamanan Data IoT:** Mendukung enkripsi data melalui SSL/TLS untuk melindungi komunikasi antara perangkat IoT dan server.
 - **Cross-Platform:** Dapat melayani berbagai perangkat IoT dari berbagai sistem operasi.
 
+### **SUMBER**
+- 
+-
+-
+
 ---
 
 # 📋 Laragon
@@ -222,6 +386,11 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 
 Dengan **Laragon**, proyek berbasis IoT dapat dikembangkan dengan mudah, mulai dari pengelolaan database hingga pengujian antarmuka web, tanpa perlu konfigurasi yang rumit.
 
+### **SUMBER**
+- 
+-
+-
 
+---
 > 💡 **Referensi Tambahan:**  
 > [Basic Writing and Formatting Syntax in GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  

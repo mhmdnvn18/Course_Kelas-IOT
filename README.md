@@ -93,7 +93,7 @@
 - [Kelas IoT - 74] Mengatur LastWill untuk Status Online atau Offline: [Wokwi](https://wokwi.com/projects/419968688532378625)
 - [Kelas IoT - 79] Menghubungkan ESP32 ke Private Broker: [Wokwi](https://wokwi.com/projects/420463073276545025)
 
-# 📚 Library yang Digunakan  
+## 📚 Library yang Digunakan  
 
 1. **Arduino MQTT**  
    [Repository](https://github.com/256dpi/arduino-mqtt)  
@@ -115,7 +115,7 @@
    [Repository](https://github.com/mqttjs)
    Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT.
 
-# 📌 Tips dan Catatan Penting  
+## 📌 Tips dan Catatan Penting  
 
 ## Library **Nusabot Simple Timer**  
 - **Fungsi:** Mengeksekusi fungsi secara berkala tanpa menggunakan `delay`. Berguna untuk proses seperti publish data secara terjadwal.  
@@ -473,7 +473,7 @@ phpMyAdmin memiliki antarmuka ramah pengguna yang membuat pengelolaan database l
 -
 -
 
-## Laragon
+## 🖥️ Laragon
 **Laragon** adalah platform pengembangan lokal yang ringan, cepat, dan dirancang untuk memudahkan pengembangan proyek berbasis web. Dengan dukungan berbagai server dan bahasa pemrograman, Laragon menjadi solusi ideal untuk membangun, mengelola, dan menguji aplikasi secara lokal sebelum di-deploy ke server produksi.
 
 ### **Fitur Utama Laragon**

@@ -6,7 +6,6 @@
 ---
 
 ## 📘 Internet of Things  
-
 1. [Konsep IoT](https://github.com/mhmdnvn18/Course_Kelas-IOT/tree/ea43fd66eec50c829149b21a21eca8324f0db535/Materi/1.%20Pengenalan%20Konsep%20IoT)  
 2. Bentuk Sinyal  
 3. Teknik PWM  
@@ -22,6 +21,8 @@
 # Kelas IoT - Daftar Materi Pembelajaran
 
 ## **1. Pengenalan Dasar**
+- [Kelas IoT - 13] LED Berkedip
+- [Kelas IoT - 14] Lampu Lalu Lintas
 - [Kelas IoT - 15] Komentar
 - [Kelas IoT - 16] Tipe Data dan Variabel
 - [Kelas IoT - 17] Membuat Variabel
@@ -47,35 +48,34 @@
 - [Kelas IoT - 29] Argument Pada Fungsi
 - [Kelas IoT - 30] Membuat Prosedur
 - [Kelas IoT - 31] Menggunakan Include
-
+- [Kelas IoT - 32] RGB LED
+- [Kelas IoT - 33] Function pada RGB LED
 ---
 
 ## **4. Komponen Elektronik**
-### **4.1 LED dan Button**
-- [Kelas IoT - 13] LED Berkedip
-- [Kelas IoT - 14] Lampu Lalu Lintas
-- [Kelas IoT - 43] Membaca Nilai Push Button
-- [Kelas IoT - 44] Menyalakan LED dengan Push Button
-- [Kelas IoT - 45] Membuat Push Button sebagai Switch
-- [Kelas IoT - 42] Mengendalikan LED Berdasarkan Nilai Potensiometer
-
-### **4.2 Potensiometer**
-- [Kelas IoT - 39] Menggunakan Potensiometer
-- [Kelas IoT - 40] Menampilkan Nilai Potensiometer ke LCD
-- [Kelas IoT - 41] Mengubah Nilai Potensiometer Menjadi Persen
-
-### **4.3 LDR dan Sensor**
-- [Kelas IoT - 46] Membaca Nilai LDR
-- [Kelas IoT - 47] Membuat Lampu Otomatis Berdasarkan Kondisi Cahaya
-
-### **4.4 Servo dan Buzzer**
+### **4.1 Servo dan Buzzer**
 - [Kelas IoT - 34] Menggunakan Servo
 - [Kelas IoT - 35] Menggunakan Servo Lebih dari Satu
 - [Kelas IoT - 36] Menggunakan Buzzer
 
-### **4.5 LCD**
+### **4.2 LCD**
 - [Kelas IoT - 37] Menggunakan LCD I2C
 - [Kelas IoT - 38] Menggunakan Lebih dari Satu LCD I2C
+
+### **4.3 Potensiometer**
+- [Kelas IoT - 39] Menggunakan Potensiometer
+- [Kelas IoT - 40] Menampilkan Nilai Potensiometer ke LCD
+- [Kelas IoT - 41] Mengubah Nilai Potensiometer Menjadi Persen
+
+### **4.4 LED dan Button**
+- [Kelas IoT - 42] Mengendalikan LED Berdasarkan Nilai Potensiometer
+- [Kelas IoT - 43] Membaca Nilai Push Button
+- [Kelas IoT - 44] Menyalakan LED dengan Push Button
+- [Kelas IoT - 45] Membuat Push Button sebagai Switch
+
+### **4.5 LDR dan Sensor**
+- [Kelas IoT - 46] Membaca Nilai LDR
+- [Kelas IoT - 47] Membuat Lampu Otomatis Berdasarkan Kondisi Cahaya
 
 ---
 
@@ -105,8 +105,7 @@
 ---
 
 ## **7. RGB dan Fungsi Tambahan**
-- [Kelas IoT - 32] RGB LED
-- [Kelas IoT - 33] Function pada RGB LED
+
 
 
 ---

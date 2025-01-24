@@ -1,4 +1,4 @@
-# ✔️ Road to Becoming an IoT Developer by Kelas-IoT  
+# ✔️ **Road to Becoming an IoT Developer by Kelas-IoT**
 
 ![Pinout ESP32](https://github.com/user-attachments/assets/6a577bfd-475c-4789-a74b-b50a14fb7368)  
 [Download Materi Referensi 📄](https://github.com/user-attachments/files/18367548/0.Materi.Referensi.pdf)  
@@ -14,7 +14,7 @@
 6. Pinout ESP32  
 7. Development Board dan Production Board  
 8. Framework Arduino  
-9. Database  
+9. [Materi Pembelajaran](https://github.com/mhmdnvn18/Course_Kelas-IOT?tab=readme-ov-file#kelas-iot---daftar-materi-pembelajaran)
 
 ---
 

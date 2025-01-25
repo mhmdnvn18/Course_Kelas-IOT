@@ -123,6 +123,10 @@
    [Repository](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
    Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT.
 
+8. **Admin LTE (Dashboard Template)**
+   [Repository](https://github.com/ColorlibHQ/AdminLTE/releases)
+   Digunanakan untuk belajar membuat dashboard website.
+
 ## 📌 Tips dan Catatan Penting  
 
 ## Library **Nusabot Simple Timer**  

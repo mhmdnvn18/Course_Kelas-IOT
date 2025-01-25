@@ -537,6 +537,10 @@ Salin lokasi file `mysql.exe` di Laragon. Lokasinya berada di: C:\laragon\bin\my
    ```bash
    mysql.exe -u "root"
    ```
+   atau
+   ```bash
+   .\mysql.exe -u "root"
+   ```
    Tekan Enter.
 
 4. Jika berhasil, prompt akan berubah menjadi seperti berikut:

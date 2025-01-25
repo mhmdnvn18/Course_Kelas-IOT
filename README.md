@@ -93,7 +93,7 @@
 - [Kelas IoT - 74] Mengatur LastWill untuk Status Online atau Offline: [Wokwi](https://wokwi.com/projects/419968688532378625)
 - [Kelas IoT - 79] Menghubungkan ESP32 ke Private Broker: [Wokwi](https://wokwi.com/projects/420463073276545025)
 
-## 📚 Library yang Digunakan  
+## 📚 Library & Extension yang Digunakan  
 
 1. **Arduino MQTT**  
    [Repository](https://github.com/256dpi/arduino-mqtt)  
@@ -113,6 +113,14 @@
 
 5. **MQTT.js**
    [Repository](https://github.com/mqttjs)
+   Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT.
+
+6. **VSMQTT**
+   [Repository](https://marketplace.visualstudio.com/items?itemName=rpdswtk.vsmqtt)
+   Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT.
+
+7. **Thunder Client**
+   [Repository](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
    Digunanakan pada website IoT yang kita buat agar dapat berkomunikasi via MQTT.
 
 ## 📌 Tips dan Catatan Penting  
@@ -662,6 +670,84 @@ Salin lokasi file `mysql.exe` di Laragon. Lokasinya berada di: C:\laragon\bin\my
 ## **Catatan**
 - Semua perintah SQL harus diakhiri dengan tanda titik koma (`;`).
 - Gunakan perintah dengan hati-hati, terutama untuk `DROP` dan `TRUNCATE`, karena data yang dihapus tidak dapat dikembalikan.
+
+
+## Membuat fitur `LOGIN` dan Penjelasan Struktur Tabel `user` pada phpMyAdmin
+
+### 1. Kolom `username`
+- **Tipe Data**: `VARCHAR(30)`
+- **Atribut**: 
+  - `PRIMARY`: Kolom ini adalah **Primary Key**, sehingga nilainya harus unik dan tidak boleh kosong.
+- **Deskripsi**: Menyimpan nama pengguna dengan panjang maksimal 30 karakter.
+
+### 2. Kolom `password`
+- **Tipe Data**: `TEXT`
+- **Deskripsi**: Menyimpan kata sandi pengguna tanpa batasan panjang karakter tertentu.
+
+### 3. Kolom `fullname`
+- **Tipe Data**: `VARCHAR(100)`
+- **Deskripsi**: Menyimpan nama lengkap pengguna dengan panjang maksimal 100 karakter.
+
+### 4. Kolom `role`
+- **Tipe Data**: `ENUM('Admin', 'User')`
+- **Default Value**: `User`
+- **Deskripsi**: Menentukan peran pengguna, yaitu:
+  - `Admin`: Pengguna dengan hak akses admin.
+  - `User`: Pengguna biasa. Nilai bawaan adalah `User`.
+
+### 5. Kolom `active`
+- **Tipe Data**: `ENUM('Yes', 'No')`
+- **Deskripsi**: Menyimpan status aktif pengguna:
+  - `Yes`: Pengguna aktif.
+  - `No`: Pengguna tidak aktif.
+
+## Atribut Tambahan
+- **Collation**: Tidak ditentukan, sehingga menggunakan collation bawaan dari tabel atau database.
+- **Storage Engine**: `InnoDB`, mendukung transaksi dan integritas referensial.
+
+## Kesimpulan
+Tabel ini dirancang untuk menyimpan informasi pengguna dengan detail berikut:
+- **Nama pengguna** (`username`), yang bersifat unik.
+- **Kata sandi** (`password`).
+- **Nama lengkap** (`fullname`).
+- **Peran pengguna** (`role`) sebagai admin atau user.
+- **Status aktif** (`active`) untuk menentukan apakah akun pengguna aktif atau tidak.
+
+## Membuat fitur `Tipe Perangkat` dan Penjelasan Struktur Tabel `devices` pada phpMyAdmin
+
+### Penjelasan Struktur Tabel `devices`
+
+#### 1. Kolom `serial_number`
+- **Tipe Data**: `VARCHAR`
+- **Atribut**: 
+  - `PRIMARY`: Kolom ini adalah **Primary Key**, sehingga nilainya harus unik dan tidak boleh kosong.
+- **Deskripsi**: Menyimpan nomor seri unik dari perangkat.
+
+#### 2. Kolom `mcu_type`
+- **Tipe Data**: `VARCHAR`
+- **Deskripsi**: Menyimpan tipe Microcontroller Unit (MCU) yang digunakan oleh perangkat.
+
+#### 3. Kolom `location`
+- **Tipe Data**: `TEXT`
+- **Deskripsi**: Menyimpan informasi lokasi perangkat secara rinci.
+
+#### 4. Kolom `created_time`
+- **Tipe Data**: `TIMESTAMP`
+- **Default Value**: `CURRENT_TIME`
+- **Deskripsi**: Menyimpan waktu saat data perangkat ditambahkan ke tabel.
+
+#### 5. Kolom `active`
+- **Tipe Data**: `ENUM('Yes', 'No')`
+- **Deskripsi**: Menyimpan status aktif perangkat:
+  - `Yes`: Perangkat aktif.
+  - `No`: Perangkat tidak aktif.
+
+### Atribut Tambahan
+- **Collation**: Tidak ditentukan, sehingga menggunakan collation bawaan dari tabel atau database.
+- **Storage Engine**: `InnoDB`, mendukung transaksi dan integritas referensial.
+
+### Fungsi Tabel `devices`
+Tabel ini dirancang untuk mencatat data perangkat yang terhubung dalam sistem. Setiap perangkat dapat diidentifikasi melalui **serial_number** yang unik. Informasi tambahan seperti **mcu_type**, **location**, **created_time**, dan **active** memungkinkan pengelolaan perangkat secara efisien.
 
 
 ---

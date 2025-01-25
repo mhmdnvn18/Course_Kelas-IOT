@@ -127,6 +127,10 @@
    [Repository](https://github.com/ColorlibHQ/AdminLTE/releases)
    Digunanakan untuk belajar membuat dashboard website.
 
+9. **Library Website**
+   [repository](https://fontawesome.com/)
+   Digunakan untuk mempercantik halaman website (Gunakan versi 5.15.4)
+
 ## 📌 Tips dan Catatan Penting  
 
 ## Library **Nusabot Simple Timer**  

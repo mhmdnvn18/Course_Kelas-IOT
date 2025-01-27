@@ -1,0 +1,12 @@
+{
+    "vsmqtt.brokerProfiles": [
+        {
+            "name": "kelasiot",
+            "host": "kelasiot76.cloud.shiftr.io",
+            "port": 1883,
+            "username": "kelasiot76",
+            "password": "JVxbR1CjvQJbblrJ",
+            "clientId": "vsmqtt_client_7334"
+        }
+    ]
+}

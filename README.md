@@ -817,7 +817,102 @@ $context  = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
 echo $response;
 
+---
+
+# 🌍 Web Hosting: Pengertian, Jenis, dan Cara Kerjanya  
+
+## 📌 Apa Itu Web Hosting?  
+**Web hosting** adalah layanan yang memungkinkan sebuah website dapat diakses melalui internet. Layanan ini menyediakan **server** untuk menyimpan file website, seperti HTML, CSS, JavaScript, gambar, database, dan lainnya agar bisa diakses oleh pengguna dari seluruh dunia.  
 
 ---
+
+## ⚙️ Cara Kerja Web Hosting  
+1. **Pengguna mengetik URL di browser**  
+   - Misalnya, `www.example.com`.  
+2. **Browser menghubungi server hosting**  
+   - Permintaan dikirim ke server tempat file website disimpan.  
+3. **Server mengirimkan file website ke browser**  
+   - File HTML, CSS, JavaScript, gambar, dan lainnya dikirim ke browser.  
+4. **Website ditampilkan di browser**  
+   - Pengguna dapat melihat dan berinteraksi dengan website secara real-time.  
+
+---
+
+## 🏢 Jenis-Jenis Web Hosting  
+Berikut adalah beberapa jenis web hosting yang umum digunakan:  
+
+### 1️⃣ **Shared Hosting**  
+🔹 **Pengertian**: Server digunakan bersama oleh banyak pengguna.  
+🔹 **Kelebihan**: Murah dan mudah digunakan untuk pemula.  
+🔹 **Kekurangan**: Performa lebih lambat jika ada website lain yang menggunakan banyak sumber daya.  
+🔹 **Cocok untuk**: Blog, website kecil, atau portofolio.  
+
+### 2️⃣ **VPS (Virtual Private Server) Hosting**  
+🔹 **Pengertian**: Satu server dibagi menjadi beberapa virtual server yang bekerja secara independen.  
+🔹 **Kelebihan**: Lebih cepat dan bisa dikonfigurasi sesuai kebutuhan.  
+🔹 **Kekurangan**: Lebih mahal dan membutuhkan keahlian teknis.  
+🔹 **Cocok untuk**: Website bisnis, toko online, atau aplikasi dengan trafik sedang.  
+
+### 3️⃣ **Dedicated Hosting**  
+🔹 **Pengertian**: Satu server khusus hanya untuk satu pengguna.  
+🔹 **Kelebihan**: Performa terbaik, keamanan tinggi, dan konfigurasi bebas.  
+🔹 **Kekurangan**: Biaya sangat mahal dan perlu pengelolaan teknis.  
+🔹 **Cocok untuk**: Website besar, perusahaan, atau aplikasi yang membutuhkan kecepatan tinggi.  
+
+### 4️⃣ **Cloud Hosting**  
+🔹 **Pengertian**: Website di-host di beberapa server cloud yang saling terhubung.  
+🔹 **Kelebihan**: Skalabilitas tinggi, performa cepat, dan uptime hampir 100%.  
+🔹 **Kekurangan**: Biaya bisa bervariasi tergantung penggunaan.  
+🔹 **Cocok untuk**: Website startup, aplikasi dengan trafik tinggi, atau bisnis skala besar.  
+
+### 5️⃣ **WordPress Hosting**  
+🔹 **Pengertian**: Hosting yang dioptimalkan khusus untuk WordPress.  
+🔹 **Kelebihan**: Performa lebih cepat, keamanan terjamin, dan mudah digunakan.  
+🔹 **Kekurangan**: Hanya cocok untuk website berbasis WordPress.  
+🔹 **Cocok untuk**: Blog, website bisnis kecil, dan portofolio.  
+
+---
+
+## 📌 Istilah Penting dalam Web Hosting  
+📌 **Domain** – Alamat website yang digunakan pengguna (contoh: `www.example.com`).  
+📌 **Bandwidth** – Jumlah data yang dapat ditransfer dari server ke pengguna dalam waktu tertentu.  
+📌 **Uptime** – Persentase waktu server tetap online (biasanya di atas 99%).  
+📌 **SSL (Secure Socket Layer)** – Sertifikat keamanan untuk mengenkripsi data antara pengguna dan server.  
+
+---
+
+## 🔥 Rekomendasi Web Hosting Terbaik  
+Berikut beberapa penyedia layanan web hosting terbaik:  
+✅ **Niagahoster** – Hosting murah dengan fitur lengkap.  
+✅ **Hostinger** – Cocok untuk pemula dan harga terjangkau.  
+✅ **SiteGround** – Hosting berkualitas tinggi dengan layanan cepat.  
+✅ **Bluehost** – Hosting populer untuk WordPress.  
+✅ **DigitalOcean** – Cocok untuk developer dan proyek skala besar.  
+
+---
+
+## 🚀 Cara Memilih Web Hosting yang Tepat  
+✅ **Sesuaikan dengan kebutuhan** – Apakah untuk blog, bisnis, atau aplikasi besar?  
+✅ **Cek kecepatan dan uptime** – Pilih hosting dengan uptime di atas 99%.  
+✅ **Perhatikan harga dan fitur** – Bandingkan harga dengan fitur yang didapat.  
+✅ **Pastikan ada layanan pelanggan** – Support 24/7 sangat penting jika terjadi masalah.  
+
+---
+
+## 🎯 Kesimpulan  
+Web hosting adalah layanan penting untuk membuat website bisa diakses di internet. Pemilihan jenis hosting yang tepat bergantung pada kebutuhan dan anggaran. Dengan memahami perbedaan tiap jenis hosting, Anda bisa memilih layanan yang paling sesuai untuk proyek Anda.  
+
+---
+
+### 📚 Referensi  
+- [Niagahoster](https://www.niagahoster.co.id)  
+- [Hostinger](https://www.hostinger.com)  
+- [SiteGround](https://www.siteground.com)  
+- [Bluehost](https://www.bluehost.com)  
+- [DigitalOcean](https://www.digitalocean.com)  
+
+
+---
+
 > 💡 **Referensi Tambahan:**  
 > [Basic Writing and Formatting Syntax in GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  

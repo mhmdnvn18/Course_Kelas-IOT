@@ -757,6 +757,66 @@ Tabel ini dirancang untuk menyimpan informasi pengguna dengan detail berikut:
 ### Fungsi Tabel `devices`
 Tabel ini dirancang untuk mencatat data perangkat yang terhubung dalam sistem. Setiap perangkat dapat diidentifikasi melalui **serial_number** yang unik. Informasi tambahan seperti **mcu_type**, **location**, **created_time**, dan **active** memungkinkan pengelolaan perangkat secara efisien.
 
+---
+
+# Webhook: Penjelasan dan Cara Kerjanya
+
+## Apa Itu Webhook?
+Webhook adalah mekanisme komunikasi antara dua aplikasi secara **real-time** dengan menggunakan **HTTP callback**. Webhook memungkinkan satu aplikasi mengirimkan data secara otomatis ke aplikasi lain saat suatu peristiwa terjadi, tanpa perlu melakukan polling secara terus-menerus.
+
+---
+
+## Cara Kerja Webhook
+1. **Trigger Event**  
+   - Webhook dipicu oleh suatu peristiwa dalam aplikasi (misalnya, pengguna mendaftar, pembayaran berhasil, sensor mengirim data, dll.).
+   
+2. **Pengiriman Data**  
+   - Aplikasi sumber mengirimkan data dalam format **JSON atau XML** ke URL tujuan (endpoint webhook) melalui metode **HTTP POST**.
+   
+3. **Penerimaan & Pemrosesan Data**  
+   - Aplikasi penerima menerima data, memprosesnya, dan merespons sesuai kebutuhan (misalnya, memperbarui database, mengirim notifikasi, dll.).
+
+---
+
+## Contoh Penggunaan Webhook
+1. **Notifikasi Pembayaran**  
+   - Ketika transaksi berhasil di gateway pembayaran (misalnya, Midtrans, PayPal, atau Stripe), webhook akan mengirimkan status pembayaran ke backend aplikasi.
+   
+2. **IoT dan Sensor**  
+   - Perangkat IoT dapat mengirimkan data ke server saat ada perubahan nilai sensor.
+   
+3. **Integrasi GitHub dengan CI/CD**  
+   - Webhook digunakan untuk menjalankan proses otomatis saat ada commit baru di GitHub.
+   
+4. **Chatbot WhatsApp / Telegram**  
+   - Webhook digunakan untuk menerima pesan masuk dan meresponsnya secara otomatis.
+
+---
+
+## Contoh Implementasi Webhook
+Berikut adalah contoh sederhana bagaimana webhook dikirim dan diterima menggunakan **PHP**:
+
+### 1. Mengirim Webhook (Client Side)
+```php
+$url = "https://example.com/webhook-receiver"; // URL endpoint penerima
+$data = [
+    "event" => "user_registered",
+    "user_id" => 12345,
+    "email" => "user@example.com"
+];
+
+$options = [
+    "http" => [
+        "header"  => "Content-Type: application/json",
+        "method"  => "POST",
+        "content" => json_encode($data),
+    ]
+];
+
+$context  = stream_context_create($options);
+$response = file_get_contents($url, false, $context);
+echo $response;
+
 
 ---
 > 💡 **Referensi Tambahan:**  

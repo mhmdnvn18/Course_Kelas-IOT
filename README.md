@@ -798,25 +798,25 @@ Berikut adalah contoh sederhana bagaimana webhook dikirim dan diterima menggunak
 
 ### 1. Mengirim Webhook (Client Side)
 ```php
-$url = "https://example.com/webhook-receiver"; // URL endpoint penerima
-$data = [
-    "event" => "user_registered",
-    "user_id" => 12345,
-    "email" => "user@example.com"
-];
-
-$options = [
-    "http" => [
-        "header"  => "Content-Type: application/json",
-        "method"  => "POST",
-        "content" => json_encode($data),
-    ]
-];
-
-$context  = stream_context_create($options);
-$response = file_get_contents($url, false, $context);
-echo $response;
-
+   $url = "https://example.com/webhook-receiver"; // URL endpoint penerima
+   $data = [
+       "event" => "user_registered",
+       "user_id" => 12345,
+       "email" => "user@example.com"
+   ];
+   
+   $options = [
+       "http" => [
+           "header"  => "Content-Type: application/json",
+           "method"  => "POST",
+           "content" => json_encode($data),
+       ]
+   ];
+   
+   $context  = stream_context_create($options);
+   $response = file_get_contents($url, false, $context);
+   echo $response;
+   '''
 ---
 
 # 🌍 Web Hosting: Pengertian, Jenis, dan Cara Kerjanya  

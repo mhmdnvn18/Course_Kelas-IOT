@@ -816,7 +816,7 @@ Berikut adalah contoh sederhana bagaimana webhook dikirim dan diterima menggunak
    $context  = stream_context_create($options);
    $response = file_get_contents($url, false, $context);
    echo $response;
-   '''
+   ```
 ---
 
 # 🌍 Web Hosting: Pengertian, Jenis, dan Cara Kerjanya  
